@@ -1,0 +1,44 @@
+{
+  "_id": "com.unity.services.deployment.api",
+  "name": "com.unity.services.deployment.api",
+  "description": "This package contains the API designed to allow for implementing Deployment functionality.",
+  "provider": "upm",
+  "versions": {
+    "1.0.0": {
+      "_upm": {
+        "changelog": "### Added\n- Make internal API public."
+      },
+      "type": "asset",
+      "unity": "2021.3",
+      "upmCi": {
+        "footprint": "7b7eb720046d1c1c301a34ca20cc7905e2834f9e"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+        "type": "git",
+        "revision": "e4df831d5e80c5d0c29785d4140e031b0bbc0264"
+      },
+      "relatedPackages": {
+        "com.unity.services.deployment.api.tests": "1.0.0"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.deployment.api@1.0/manual/index.html",
+      "name": "com.unity.services.deployment.api",
+      "version": "1.0.0",
+      "displayName": "Deployment API",
+      "description": "This package contains the API designed to allow for implementing Deployment functionality.",
+      "dependencies": {},
+      "dist": {
+        "shasum": "c4619524e21942d3739698c341469033e1cbf06c39b86afb0c16cc9dda30d7be",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.services.deployment.api-1.0.0.tgz"
+      }
+    }
+  },
+  "time": {
+    "1.0.0": "2024-11-19T05:06:14Z"
+  },
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "etag": "\"112b-9rUZD/7DuRxHrVk92bOeOvI7ThA\"",
+  "unity": "5000.1"
+}

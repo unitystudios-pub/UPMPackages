@@ -1,0 +1,48 @@
+{
+  "_id": "com.unity.test-framework.performance",
+  "name": "com.unity.test-framework.performance",
+  "description": "Package that extends Unity Test Framework package. Adds performance testing capabilities and collects configuration metadata.",
+  "provider": "upm",
+  "versions": {
+    "3.0.2": {
+      "_upm": {
+        "changelog": "### Changed\n- Added additional InternalsVisibleTo attribute for internal test assembly"
+      },
+      "type": "assets",
+      "unity": "2020.3",
+      "upmCi": {
+        "footprint": "9bd115b64b745f6d40d5db4d9619429b7f72bdc8"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.test-framework.performance.git",
+        "type": "git",
+        "revision": "1b5b8963c496694439bad232d2abe0de1848fb71"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.test-framework.performance@3.0/manual/index.html",
+      "name": "com.unity.test-framework.performance",
+      "version": "3.0.2",
+      "displayName": "Performance testing API",
+      "description": "Extension to the Unity Test framework package. Adds performance testing capabilities and collects configuration metadata.",
+      "keywords": [
+        "performance",
+        "test"
+      ],
+      "dependencies": {
+        "com.unity.test-framework": "1.3.9",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "dist": {
+        "shasum": "34f8d8eb28418e5748fd87a2b9cf137acffeb275262421d94ace2652d1380c4e",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.test-framework.performance-3.0.2.tgz"
+      }
+    }
+  },
+  "time": {
+    "3.0.2": "2024-11-19T05:06:22Z"
+  },
+  "dist-tags": {
+    "latest": "3.0.2"
+  },
+  "etag": "\"e374-jjKuGocwG5wnlfDgUTHAi66NSYo\"",
+  "unity": "5000.1"
+}

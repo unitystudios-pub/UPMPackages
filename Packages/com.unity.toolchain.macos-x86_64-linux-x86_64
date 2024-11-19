@@ -1,0 +1,42 @@
+{
+  "_id": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+  "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+  "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+  "provider": "upm",
+  "versions": {
+    "2.0.10": {
+      "_upm": {
+        "changelog": "Optimized and reduced package size"
+      },
+      "unity": "2019.4",
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.toolchain.macos-x86_64-linux-x86_64@2.0/manual/index.html",
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "2.0.10",
+      "displayName": "Toolchain MacOS Linux x64",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "dependencies": {
+        "com.unity.sysroot": "2.0.10",
+        "com.unity.sysroot.linux-x86_64": "2.0.9"
+      },
+      "dist": {
+        "shasum": "1b50fe0be58ff52695dab76823586fb06579ecefc5b93e4298564c86ee22c895",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.toolchain.macos-x86_64-linux-x86_64-2.0.10.tgz"
+      }
+    }
+  },
+  "time": {
+    "2.0.10": "2024-11-19T05:06:24Z"
+  },
+  "dist-tags": {
+    "latest": "2.0.10"
+  },
+  "etag": "\"a8af-YTW+3wjZEdYGW8TMyzpTv4O3EzU\"",
+  "unity": "5000.1"
+}

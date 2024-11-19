@@ -1,0 +1,53 @@
+{
+  "_id": "com.unity.services.ugc.bridge",
+  "name": "com.unity.services.ugc.bridge",
+  "description": "The User-Generated Content (UGC) Bridge is a Unity package allowing users to upload UGC for a specific game from the Unity editor. It is a template Unity package provided to game studios developing UGC games, so they can modify it to suit their needs and designs, but functional by default without changing anything.\n\n The UGC Bridge aims to reduce the friction of the UGC integration in a game, leveraging the Unity editor itself as the base of the UGC editor, therefore also reducing the engineering cost of such integration.",
+  "provider": "upm",
+  "versions": {
+    "3.0.0": {
+      "_upm": {
+        "changelog": "### Changed\n- `GetTagsAsync` changed to only returns tags for the current environment.",
+        "supportedPlatforms": [
+          "Linux",
+          "Mac",
+          "PC"
+        ]
+      },
+      "type": "assets",
+      "unity": "2020.3",
+      "upmCi": {
+        "footprint": "0cc9d38f7a2686faa2f927096f6acaaf0050a869"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+        "type": "git",
+        "revision": "778d76606646f67f28bd1d1bc427b6a21edae70f"
+      },
+      "relatedPackages": {
+        "com.unity.services.ugc.bridge.tests": "3.0.0"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.ugc.bridge@3.0/manual/index.html",
+      "name": "com.unity.services.ugc.bridge",
+      "version": "3.0.0",
+      "displayName": "User Generated Content Bridge",
+      "description": "The User-Generated Content (UGC) Bridge is a Unity package allowing users to upload UGC for a specific game from the Unity editor. It is a template Unity package provided to game studios developing UGC games, so they can modify it to suit their needs and designs, but functional by default without changing anything.\n\n The UGC Bridge aims to reduce the friction of the UGC integration in a game, leveraging the Unity editor itself as the base of the UGC editor, therefore also reducing the engineering cost of such integration.",
+      "dependencies": {
+        "com.unity.services.core": "1.13.0",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.services.authentication": "3.3.3"
+      },
+      "dist": {
+        "shasum": "9140cbfbe7249f8854f2d5ab296049c4cd5cae645ad6ae8f652425b7f74bfe21",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.services.ugc.bridge-3.0.0.tgz"
+      }
+    }
+  },
+  "time": {
+    "3.0.0": "2024-11-19T05:06:15Z"
+  },
+  "dist-tags": {
+    "latest": "3.0.0"
+  },
+  "etag": "\"17fb-DpErArDseT1f+eiEL3ySM+6oC0M\"",
+  "unity": "5000.1"
+}

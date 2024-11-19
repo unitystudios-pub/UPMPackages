@@ -1,0 +1,51 @@
+{
+  "_id": "com.unity.netcode.gameobjects",
+  "name": "com.unity.netcode.gameobjects",
+  "description": "Netcode for GameObjects is a high-level netcode SDK that provides networking capabilities to GameObject/MonoBehaviour workflows within Unity and sits on top of underlying transport layer.",
+  "provider": "upm",
+  "versions": {
+    "1.8.1": {
+      "_upm": {
+        "changelog": "### Fixed\n\n- Fixed a compile error when compiling for IL2CPP targets when using the new `[Rpc]` attribute. (#2824)"
+      },
+      "type": "assets",
+      "unity": "2021.3",
+      "upmCi": {
+        "footprint": "5e57664d4f43bf176189c5ec8fd10f595b668e7d"
+      },
+      "samples": [
+        {
+          "path": "Samples~/Bootstrap",
+          "description": "A lightweight sample to get started",
+          "displayName": "Bootstrap"
+        }
+      ],
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.netcode.gameobjects.git",
+        "type": "git",
+        "revision": "eb213838233cbee2030891203bcb72d2354a5a7d"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@1.8/manual/index.html",
+      "name": "com.unity.netcode.gameobjects",
+      "version": "1.8.1",
+      "displayName": "Netcode for GameObjects",
+      "description": "Netcode for GameObjects is a high-level netcode SDK that provides networking capabilities to GameObject/MonoBehaviour workflows within Unity and sits on top of underlying transport layer.",
+      "dependencies": {
+        "com.unity.transport": "2.2.1",
+        "com.unity.nuget.mono-cecil": "1.11.4"
+      },
+      "dist": {
+        "shasum": "41d4dca771fcfcafee24058d3fd6f4cd47da50013dbc9255e11fdad5cb680e63",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.netcode.gameobjects-1.8.1.tgz"
+      }
+    }
+  },
+  "time": {
+    "1.8.1": "2024-11-19T05:06:08Z"
+  },
+  "dist-tags": {
+    "latest": "1.8.1"
+  },
+  "etag": "\"1ed7f-8HmZBuB4m6Zw9c5oX0UdEZt3BIE\"",
+  "unity": "5000.1"
+}

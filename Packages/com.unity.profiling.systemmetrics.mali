@@ -1,0 +1,61 @@
+{
+  "_id": "com.unity.profiling.systemmetrics.mali",
+  "name": "com.unity.profiling.systemmetrics.mali",
+  "description": "The System Metrics package provides access to low-level system or hardware performance metrics on ARM Mali devices. It enables applications to make performance-relevant measurements in development and runtime using ProfilerRecorder API.\n\nBy installing this package, you agree to the terms and conditions of the Unity End User License Agreement found under \"View licenses\" above.",
+  "provider": "upm",
+  "versions": {
+    "1.0.3": {
+      "upm": {
+        "changelog": "### Changed,- Updated usage guide documentation."
+      },
+      "_upm": {
+        "changelog": "### Added\n- Added Windows Arm64 Editor library"
+      },
+      "unity": "2021.2",
+      "upmCi": {
+        "footprint": "15c583f8c75b8331accca7275a7f483cdb82cc68"
+      },
+      "license": "See LICENSE.md file",
+      "samples": [
+        {
+          "path": "Samples~/CounterReadExample",
+          "description": "Example shows how to create and associate ProfilerRecorder with a GPU counter, how to read data from the counter and how to dispose it after use.",
+          "displayName": "Reading of a single GPU counter"
+        }
+      ],
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.profiling.systemmetrics.git",
+        "type": "git",
+        "revision": "e27cbf2de43958280a369a469e3f47f60d9ce0de"
+      },
+      "relatedPackages": {
+        "com.unity.profiling.systemmetrics.mali.tests": "1.0.3"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.profiling.systemmetrics.mali@1.0/manual/index.html",
+      "name": "com.unity.profiling.systemmetrics.mali",
+      "version": "1.0.3",
+      "displayName": "System Metrics Mali",
+      "description": "The System Metrics package provides access to low-level system or hardware performance metrics on ARM Mali devices. It enables applications to make performance-relevant measurements in development and runtime using ProfilerRecorder API.\n\nBy installing this package, you agree to the terms and conditions of the Unity End User License Agreement found under \"View licenses\" above.",
+      "keywords": [
+        "mobile",
+        "performance",
+        "arm",
+        "profiler",
+        "profiling"
+      ],
+      "dependencies": {},
+      "dist": {
+        "shasum": "31775c9f419197250255b48324a829429de5a5802a27333669709e9b50587e80",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.profiling.systemmetrics.mali-1.0.3.tgz"
+      }
+    }
+  },
+  "time": {
+    "1.0.3": "2024-11-19T05:06:11Z"
+  },
+  "dist-tags": {
+    "latest": "1.0.3"
+  },
+  "etag": "\"4e81-R2++ztTwZlH/RotLxCe8Iv8+lec\"",
+  "unity": "5000.1"
+}

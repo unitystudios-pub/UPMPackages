@@ -1,0 +1,64 @@
+{
+  "_id": "com.unity.services.push-notifications",
+  "name": "com.unity.services.push-notifications",
+  "description": "This package adds support for Push Notifications to your game. It allows sending rich push notifications with images, and provides analytics on the number of received push notifications.",
+  "provider": "upm",
+  "versions": {
+    "4.0.0": {
+      "_upm": {
+        "changelog": "### Changed\n\n- Bumps the unity version to 2021.3\n- Updated `com.unity.services.analytics` dependency to 6.0.1",
+        "gameService": {
+          "groupId": "player-engagement",
+          "configurePath": "Project/Services/Push Notifications",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/environments/default/campaigns/push/overview",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "unity": "2021.3",
+      "upmCi": {
+        "footprint": "af8df0834b2b91b5e123cc826be53e8020d8f3d6"
+      },
+      "samples": [
+        {
+          "path": "Samples~/Example",
+          "description": "This basic sample registers for push notifications on each supported platform, and logs when notifications are received.",
+          "displayName": "Push Notification Example"
+        }
+      ],
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+        "type": "git",
+        "revision": "50b23cb45b26b142133375a4d22e504fd2707203"
+      },
+      "relatedPackages": {
+        "com.unity.services.push-notifications.tests": "4.0.0"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.push-notifications@4.0/manual/index.html",
+      "name": "com.unity.services.push-notifications",
+      "version": "4.0.0",
+      "displayName": "Push Notifications",
+      "description": "This package adds support for Push Notifications to your game. It allows sending rich push notifications with images, and provides analytics on the number of received push notifications.",
+      "dependencies": {
+        "com.unity.services.core": "1.13.0",
+        "com.unity.services.analytics": "6.0.1",
+        "com.unity.mobile.notifications": "2.3.2"
+      },
+      "dist": {
+        "shasum": "ce90648385123ef074662ba366796ac05b2aa3c786599db71243ab296324519b",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.services.push-notifications-4.0.0.tgz"
+      }
+    }
+  },
+  "time": {
+    "4.0.0": "2024-11-19T05:06:15Z"
+  },
+  "dist-tags": {
+    "latest": "4.0.0"
+  },
+  "etag": "\"4eec-OBKnJVcM46OR96+aTedVwwgvLlg\"",
+  "unity": "5000.1"
+}

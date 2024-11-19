@@ -1,0 +1,68 @@
+{
+  "_id": "com.unity.services.ugc",
+  "name": "com.unity.services.ugc",
+  "description": "The Unity User Generated Content package provides content management, moderation, and discovery features.",
+  "provider": "upm",
+  "versions": {
+    "3.0.1": {
+      "_upm": {
+        "changelog": "- Added Apple privacy manifest to comply with Apple's new privacy requirements. More details on how the Unity Engine supports this can be found [here](https://forum.unity.com/threads/apple-privacy-manifest-updates-for-unity-engine.1529026/).\n- Upgraded `com.unity.services.core` from 1.9.0 to 1.12.5 to include their Apple privacy manifest.\n- Upgraded `com.unity.services.authentication` from 2.5.0 to 3.3.1 to include their Apple privacy manifest.",
+        "gameService": {
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/user-generated-content/overview",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS",
+          "Linux",
+          "Mac",
+          "PC",
+          "Windows 8.1 Universal",
+          "Windows 10 Universal"
+        ]
+      },
+      "type": "assets",
+      "unity": "2020.3",
+      "upmCi": {
+        "footprint": "0eb2928bd50c9d06004db75b5c6fab23deb01c2d"
+      },
+      "samples": [
+        {
+          "path": "Samples~/ContentBrowser",
+          "description": "A drag and drop prefab of a content browser for UGC.",
+          "displayName": "Content Browser Prefab"
+        }
+      ],
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+        "type": "git",
+        "revision": "3e74980b954392d3edf373e83f0cf22e2967f7f9"
+      },
+      "relatedPackages": {
+        "com.unity.services.ugc.tests": "3.0.1"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.ugc@3.0/manual/index.html",
+      "name": "com.unity.services.ugc",
+      "version": "3.0.1",
+      "displayName": "User Generated Content",
+      "description": "The Unity User Generated Content package provides content management, moderation, and discovery features.",
+      "dependencies": {
+        "com.unity.services.core": "1.13.0",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.services.authentication": "3.3.3"
+      },
+      "dist": {
+        "shasum": "619c13baf57e08c6a6213a20cd46338a182ac2cffedcd57d4fb49a88c4ce848b",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.services.ugc-3.0.1.tgz"
+      }
+    }
+  },
+  "time": {
+    "3.0.1": "2024-11-19T05:06:16Z"
+  },
+  "dist-tags": {
+    "latest": "3.0.1"
+  },
+  "etag": "\"1fe4-Ml2H1lslunHTEjcqhibRJywJjWQ\"",
+  "unity": "5000.1"
+}

@@ -1,0 +1,55 @@
+{
+  "_id": "com.unity.sequences",
+  "name": "com.unity.sequences",
+  "description": "Efficiently create movies, game cinematics or any other linear content.\nOrganize your project's editorial structure and your creative content, assemble the elements for easy authoring and collaboration, and try out new ideas in a non-destructive way.",
+  "provider": "upm",
+  "versions": {
+    "2.1.3": {
+      "_upm": {
+        "changelog": "### Changed\n* Prepared the package for end of support as of Unity 6.1."
+      },
+      "unity": "2022.1",
+      "upmCi": {
+        "footprint": "99ee243b8436fe2e4180a9cb9c53de07e56f1cb5"
+      },
+      "samples": [
+        {
+          "path": "Samples~/SceneManagement",
+          "description": "This sample contains a Scene with a Master Sequence that uses the Scene Management features. It is made of multiple sequences, each with their own Scene Activation Track to control the activation of different Scenes for set and lighting.",
+          "displayName": "Scene Management"
+        }
+      ],
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sequences.git",
+        "type": "git",
+        "revision": "0329fc041dc7e94b45ea9dcb14413c6fc8ccc458"
+      },
+      "relatedPackages": {
+        "com.unity.sequences.tests": "2.1.3"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.sequences@2.1/manual/index.html",
+      "name": "com.unity.sequences",
+      "version": "2.1.3",
+      "displayName": "Sequences",
+      "description": "Efficiently create movies, game cinematics or any other linear content.\nOrganize your project's editorial structure and your creative content, assemble the elements for easy authoring and collaboration, and try out new ideas in a non-destructive way.",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.recorder": "5.0.0",
+        "com.unity.timeline": "1.8.7",
+        "com.unity.settings-manager": "2.0.1"
+      },
+      "dist": {
+        "shasum": "aaaa80d65072c39ad83ad351e6e08af0e735fa9bbcb8410cbb93ab7c19a42d79",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.sequences-2.1.3.tgz"
+      }
+    }
+  },
+  "time": {
+    "2.1.3": "2024-11-19T05:06:13Z"
+  },
+  "dist-tags": {
+    "latest": "2.1.3"
+  },
+  "etag": "\"9c78-YTheUYnQnBKEk0CAQii4fyH/GNE\"",
+  "unity": "5000.1"
+}

@@ -1,0 +1,64 @@
+{
+  "_id": "com.unity.multiplayer.tools",
+  "name": "com.unity.multiplayer.tools",
+  "description": "Adds a suite of tools that improve workflows for multiplayer development",
+  "provider": "upm",
+  "versions": {
+    "2.1.0": {
+      "_upm": {
+        "changelog": "### *General*\n- Increased minimum version to 2023.3+\n\n### *Network Simulator*\n- Fixed an issue with execution order dependend initialization of NetworkAdapters.\n\n### *Network Scene Visualization*\n- Improved usability when pausing the editor."
+      },
+      "type": "tool",
+      "unity": "2023.3",
+      "upmCi": {
+        "footprint": "8641f7caa9ed1d413a8e97b33ea2da9f3cad4fdb"
+      },
+      "samples": [
+        {
+          "path": "Samples~/NetworkSimulator",
+          "description": "Samples showcasing the different ways of building custom network simulator scenarios.\n\nNote: In order to use these Samples, make sure you have Netcode for GameObjects (com.unity.netcode.gameobjects) 1.1.0 or later and Unity Transport (com.unity.transport) 2.0.0 or later. For more info, please check the Network Simulator documentation: https://docs-multiplayer.unity3d.com/tools/current/tools-network-simulator",
+          "displayName": "Network Scenario Samples"
+        }
+      ],
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.multiplayer.tools.git",
+        "type": "git",
+        "revision": "d39910e6f89deb4d735562fa620e4d4d298c3976"
+      },
+      "relatedPackages": {
+        "com.unity.multiplayer.tools.tests": "2.1.0"
+      },
+      "name": "com.unity.multiplayer.tools",
+      "version": "2.1.0",
+      "displayName": "Multiplayer Tools",
+      "description": "Adds a suite of tools that improve workflows for multiplayer development",
+      "keywords": [
+        "Multiplayer",
+        "Netcode",
+        "GameObjects",
+        "Tools"
+      ],
+      "dependencies": {
+        "com.unity.burst": "1.8.18",
+        "com.unity.collections": "2.2.1",
+        "com.unity.mathematics": "1.3.1",
+        "com.unity.profiling.core": "1.0.2",
+        "com.unity.nuget.mono-cecil": "1.11.4",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "dist": {
+        "shasum": "3f7c452a3117422e3377dec5987105a1e95f5de9e2155a08d053fecd288b8c96",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.multiplayer.tools-2.1.0.tgz"
+      }
+    }
+  },
+  "time": {
+    "2.1.0": "2024-11-19T05:06:08Z"
+  },
+  "dist-tags": {
+    "latest": "2.1.0"
+  },
+  "etag": "\"6781-jcC1c6/tJAgbehrukQm/APcyOFQ\"",
+  "unity": "5000.1"
+}

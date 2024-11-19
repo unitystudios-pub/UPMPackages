@@ -1,0 +1,65 @@
+{
+  "_id": "com.unity.services.matchmaker",
+  "name": "com.unity.services.matchmaker",
+  "description": "Unity Matchmaker is part of Unity's growing suite of multiplayer services that are designed to help you create and operate multiplayer games no matter what engine you're using.",
+  "provider": "upm",
+  "versions": {
+    "1.1.5": {
+      "_upm": {
+        "changelog": "* Fix ABTesting overrides on non-default environment",
+        "gameService": {
+          "genericDashboardUrl": "https://dashboard.unity3d.com/matchmaker",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/environments/default/matchmaker/overview",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid"
+        }
+      },
+      "type": "assets",
+      "unity": "2020.3",
+      "upmCi": {
+        "footprint": "c9ebc0b3068daf7bcd91bec32af8aa53a2b2bfa2"
+      },
+      "samples": [
+        {
+          "path": "Samples~/PollingSample",
+          "description": "A sample showcasing the features of the Matchmaker SDK.",
+          "displayName": "Matchmaker Polling Sample"
+        }
+      ],
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+        "type": "git",
+        "revision": "8dcacb70bbc35971f72489112178873359bc23b6"
+      },
+      "relatedPackages": {
+        "com.unity.services.matchmaker.tests": "1.1.5"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.matchmaker@1.1/manual/index.html",
+      "name": "com.unity.services.matchmaker",
+      "version": "1.1.5",
+      "displayName": "Matchmaker",
+      "description": "Unity Matchmaker is part of Unity's growing suite of multiplayer services that are designed to help you create and operate multiplayer games no matter what engine you're using.",
+      "dependencies": {
+        "com.unity.services.core": "1.13.0",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.services.authentication": "3.3.3",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.modules.unitywebrequestaudio": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
+      },
+      "dist": {
+        "shasum": "93fb96d667c276817a80ce0127ca0188f8d30715a1a4c2de359771a2cb722c2c",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.services.matchmaker-1.1.5.tgz"
+      }
+    }
+  },
+  "time": {
+    "1.1.5": "2024-11-19T05:06:15Z"
+  },
+  "dist-tags": {
+    "latest": "1.1.5"
+  },
+  "etag": "\"787b-pVVqb5gM5Y4XgxvOoqPLyvigQ8g\"",
+  "unity": "5000.1"
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "com.unity.services.cloudcode",
+  "name": "com.unity.services.cloudcode",
+  "description": "Run your game logic in the cloud as serverless functions and interact with other backend services.\n\nThis package allows you to call out to Cloud Code from within your project as a secure player.\n\nCloud Code can be used to: \n-Change game logic for all players without re-distributing your game \n-Grant timed rewards \n-Create randomized values",
+  "provider": "upm",
+  "versions": {
+    "2.6.2": {
+      "_upm": {
+        "changelog": "### Added\n- Added privacy manifest\n\n### Fixed\n- An issue that would cache Npm and Node path at startup instead of reading them from the settings",
+        "gameService": {
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/cloud-code/about",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS",
+          "Linux",
+          "Mac",
+          "PC",
+          "Windows 8 Universal",
+          "Windows 10 Universal"
+        ]
+      },
+      "type": "assets",
+      "unity": "2020.3",
+      "upmCi": {
+        "footprint": "8cd64333101bc39a733970160b70f06da3f843a8"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+        "type": "git",
+        "revision": "bd36e20b79844a8f6bd7b63386c775eac35616d2"
+      },
+      "relatedPackages": {
+        "com.unity.services.cloudcode.tests": "2.6.2"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.cloudcode@2.6/manual/index.html",
+      "name": "com.unity.services.cloudcode",
+      "version": "2.6.2",
+      "displayName": "Cloud Code",
+      "description": "Run your game logic in the cloud as serverless functions and interact with other backend services.\n\nThis package allows you to call out to Cloud Code from within your project as a secure player.\n\nCloud Code can be used to: \n-Change game logic for all players without re-distributing your game \n-Grant timed rewards \n-Create randomized values",
+      "dependencies": {
+        "com.unity.services.core": "1.13.0",
+        "com.unity.services.wire": "1.2.6",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.services.authentication": "3.3.3"
+      },
+      "dist": {
+        "shasum": "8ad84211a8a48f7626fccec79debe1e989bfa50cc6781bdeae07aaf1a859cc0d",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.services.cloudcode-2.6.2.tgz"
+      }
+    }
+  },
+  "time": {
+    "2.6.2": "2024-11-19T05:06:13Z"
+  },
+  "dist-tags": {
+    "latest": "2.6.2"
+  },
+  "etag": "\"b823-VX0biO7Wn22kJmxNMfxRMRb5SLs\"",
+  "unity": "5000.1"
+}

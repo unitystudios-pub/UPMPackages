@@ -1,0 +1,61 @@
+{
+  "_id": "com.unity.services.cloud-diagnostics",
+  "name": "com.unity.services.cloud-diagnostics",
+  "description": "This package is a suite of cloud enabled tools that help you collect and identify issues that users encounter with your apps.",
+  "provider": "upm",
+  "versions": {
+    "1.0.10": {
+      "_upm": {
+        "changelog": "### Modified \n- Adjusted documentation",
+        "gameService": {
+          "configurePath": "Project/Services/Cloud Diagnostics",
+          "genericDashboardUrl": "https://dashboard.unity3d.com/gaming/cloud-diagnostics",
+          "projectDashboardUrl": "https://developer.cloud.unity3d.com/diagnostics/orgs/{0}/projects/{1}/crashes",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS",
+          "Linux",
+          "Mac",
+          "PC",
+          "WebGL",
+          "Windows 8 Universal",
+          "Windows 10 Universal"
+        ]
+      },
+      "type": "library",
+      "unity": "2022.1",
+      "upmCi": {
+        "footprint": "a482b0d520d4e0bd166e3d19fed97a3313598508"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+        "type": "git",
+        "revision": "1414ef72e01b124ad0140fe99462fec2071717da"
+      },
+      "relatedPackages": {
+        "com.unity.services.cloud-diagnostics.tests": "1.0.10"
+      },
+      "name": "com.unity.services.cloud-diagnostics",
+      "version": "1.0.10",
+      "displayName": "Cloud Diagnostics",
+      "description": "This package is a suite of cloud enabled tools that help you collect and identify issues that users encounter with your apps.",
+      "dependencies": {
+        "com.unity.services.core": "1.13.0"
+      },
+      "dist": {
+        "shasum": "accf0965f885ecbf536065a70d18df8752b59079b0a1a6153785202e1f0de781",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.services.cloud-diagnostics-1.0.10.tgz"
+      }
+    }
+  },
+  "time": {
+    "1.0.10": "2024-11-19T05:06:13Z"
+  },
+  "dist-tags": {
+    "latest": "1.0.10"
+  },
+  "etag": "\"2605-tUwPUe7uUre5VfTSHi++pcyjR6M\"",
+  "unity": "5000.1"
+}

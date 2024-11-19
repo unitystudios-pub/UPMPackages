@@ -1,0 +1,186 @@
+{
+  "_id": "com.unity.purchasing",
+  "name": "com.unity.purchasing",
+  "description": "IMPORTANT UPGRADE NOTES:\n\nThis is a major overhaul of the IAP package. Consult the included sample for a complete example on how to use this new version.\n\nPACKAGE DESCRIPTION:\n\nWith Unity IAP, setting up in-app purchases for your game across multiple app stores has never been easier.\n\nThis package provides:\n\n ▪ One common API to access all stores for free so you can fully understand and optimize your in-game economy\n ▪ Automatic coupling with Unity Analytics to enable monitoring and decision-making based on trends in your revenue and purchase data across multiple platforms\n ▪ Support for iOS, Mac, tvOS and Google Play.\n ▪ Client-side receipt validation for Apple App Store and Google Play\n\nAfter installing this package, open the Services Window to enable In-App Purchasing to use these features.",
+  "provider": "upm",
+  "versions": {
+    "4.11.0": {
+      "_upm": {
+        "changelog": "### Added\n- GooglePlay - `IGooglePlayConfiguration.SetMaxConnectionAttempts(int maxConnectionAttempts)` has been added to specify the max connection attempts to the Google Play Store.\n- Apple - Added privacy manifest to comply with Apple's new privacy requirements. More details on how the Unity Engine supports this can be found [here](https://forum.unity.com/threads/apple-privacy-manifest-updates-for-unity-engine.1529026/).\n- Added `ConfigurationBuilder.logUnavailableProducts` to specify if unavailable products should be logged.\n\n### Changed\n- GooglePlay - The default max connection attempt to the Google Play Store has been increased from 1 to 3. See `IGooglePlayConfiguration.SetMaxConnectionAttempts` to configure this to a different value.\n- Apple - The log when retrieving products (SKProductsResponse) now also contains the invalid products count.\n- Improved `IStoreListener.OnInitializeFailed` for `InitializationFailureReason.NoProductsAvailable` by adding a message to clarify whether the store returned products or not.\n\n### Fixed\n- GooglePlay - Fixed AndroidJavaObject not being disposed causing a global reference table overflow in an edge case.\n- GooglePlay - Fixed bug causing BillingClient duplication resulting in ANR.\n- Apple - Fixed isFamilyShareable on tvOS to be only available on supported versions (14.0 and above).\n- Apple - Error codes when a purchase fails now always returns the code from Apple instead of defaulting to `SKErrorUnknown`.\n- Fixed Analytics' transactionServer being null.",
+        "gameService": {
+          "groupName": "Monetize",
+          "groupIndex": 4,
+          "configurePath": "Project/Services/In-App Purchasing",
+          "genericDashboardUrl": "https://dashboard.unity3d.com/",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/analytics/v2/dashboards/revenue",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "type": "assets",
+      "unity": "2020.3",
+      "upmCi": {
+        "footprint": "72d426a29282f0ac1ae5c00e4a52102f61fe97f4"
+      },
+      "license": "Unity Companion Package License v1.0",
+      "samples": [
+        {
+          "path": "Samples~/01 BuyingConsumables",
+          "description": "This sample showcases the basics of how to initialize in-app purchases and handle a simple consumable purchase.",
+          "displayName": "01 Buying Consumables"
+        },
+        {
+          "path": "Samples~/02 BuyingSubscription",
+          "description": "This sample showcases the basics of how to handle subscription purchases and the usage of SubscriptionManager to retrieve information about a subscription.",
+          "displayName": "02 Buying Subscription"
+        },
+        {
+          "path": "Samples~/03 FetchingAdditionalProducts",
+          "description": "This sample showcases how to fetch additional products using the Store Controller.",
+          "displayName": "03 Fetching Additional Products"
+        },
+        {
+          "path": "Samples~/04 IntegratingSelfProvidedBackendReceiptValidation",
+          "description": "This sample showcases how to integrate your own backend validation with Unity IAP.",
+          "displayName": "04 Integrating Self-Provided Backend Receipt Validation"
+        },
+        {
+          "path": "Samples~/05 LocalReceiptValidation",
+          "description": "This sample showcases how to use the cross-platform validator to do local receipt validation with the Google Play Store and Apple App Store.",
+          "displayName": "05 Local Receipt Validation"
+        },
+        {
+          "path": "Samples~/06 InitializeGamingServices",
+          "description": "This sample showcases how to initialize Unity Gaming Services using the Services Core API",
+          "displayName": "06 Initialize Unity Gaming Services"
+        },
+        {
+          "path": "Samples~/Apple App Store - 01 RefreshingAppReceipt",
+          "description": "This sample shows how to refresh Apple App Store receipts.",
+          "displayName": "Apple App Store - 01 Refreshing App Receipts"
+        },
+        {
+          "path": "Samples~/Apple App Store - 02 RestoringTransactions",
+          "description": "This sample showcases how to use Apple extensions to restore transactions. This allows users to be granted Non-Consumable and Subscription products they already own after reinstalling the application.",
+          "displayName": "Apple App Store - 02 Restoring Transactions"
+        },
+        {
+          "path": "Samples~/Apple App Store - 03 HandlingDeferredPurchases",
+          "description": "This sample showcases how to handle deferred purchases using Apple extensions and configurations.",
+          "displayName": "Apple App Store - 03 Handling Deferred Purchases"
+        },
+        {
+          "path": "Samples~/Apple App Store - 04 RetrievingProductReceipt",
+          "description": "This sample showcases how to retrieve product transaction receipts for Ask to Buy purchases.",
+          "displayName": "Apple App Store - 04 Retrieving Product Receipt"
+        },
+        {
+          "path": "Samples~/Apple App Store - 05 FraudDetection",
+          "description": "This sample showcases how to provide to the Apple App Store your user's identifiers to help prevent fraud.",
+          "displayName": "Apple App Store - 05 Fraud Detection"
+        },
+        {
+          "path": "Samples~/Apple App Store - 06 GettingIntroductoryPrices",
+          "description": "This sample showcases how to use Apple extensions to get introductory subscription offer information.",
+          "displayName": "Apple App Store - 06 Getting Introductory Subscription Prices"
+        },
+        {
+          "path": "Samples~/Apple App Store - 07 gettingProductDetails",
+          "description": "This sample showcases how to use Apple extensions to get additional product details.",
+          "displayName": "Apple App Store - 07 Getting Product Details"
+        },
+        {
+          "path": "Samples~/Apple App Store - 08 PromptingProducts",
+          "description": "This sample shows how to Promote Products in the Apple App Store.",
+          "displayName": "Apple App Store - 08 Promoting Products"
+        },
+        {
+          "path": "Samples~/Apple App Store - 09 PresentCodeRedemptionSheet",
+          "description": "This sample shows how to use the Apple App Store extensions to display a sheet for users to redeem subscription offer codes.",
+          "displayName": "Apple App Store - 09 Present Code Redemption Sheet"
+        },
+        {
+          "path": "Samples~/Apple App Store - 10 CanMakePayments",
+          "description": "This sample shows how to check whether the logged-in player is permitted to purchase from the Apple App Store on this device.",
+          "displayName": "Apple App Store - 10 Can Make Payments"
+        },
+        {
+          "path": "Samples~/Apple App Store - 11 FamilySharing",
+          "description": "This sample showcases how to use Unity IAP to manage family shared purchases.",
+          "displayName": "Apple App Store - 11 Family Sharing"
+        },
+        {
+          "path": "Samples~/Apple App Store - 12 UpgradeDowngradeSubscription",
+          "description": "This sample showcases how to use the Unity IAP to upgrade and downgrade subscriptions. This allows players to change their subscription, and pay a different amount of money for a different level of service.",
+          "displayName": "Apple App Store - 12 Upgrading and Downgrading Subscriptions"
+        },
+        {
+          "path": "Samples~/Google Play Store - 01 UpgradeDowngradeSubscription",
+          "description": "This sample showcases how to use the Google Play Store extensions to upgrade and downgrade subscriptions. This allows players to change their subscription, and pay a different amount of money for a different level of service.",
+          "displayName": "Google Play Store - 01 Upgrading and Downgrading Subscriptions"
+        },
+        {
+          "path": "Samples~/Google Play Store - 02 RestoringTransactions",
+          "description": "This sample showcases how to use the Google Play Store extensions to restore transactions. This allows users to be granted Non-Consumable and Subscription products they already own after reinstalling the application.",
+          "displayName": "Google Play Store - 02 Restoring Transactions"
+        },
+        {
+          "path": "Samples~/Google Play Store - 03 ConfirmingSubscriptionPriceChange",
+          "description": "This sample showcases how to use the Google Play Store extensions to confirm subscription price changes.",
+          "displayName": "Google Play Store - 03 Confirming Subscription Price Change"
+        },
+        {
+          "path": "Samples~/Google Play Store - 04 HandlingDeferredPurchases",
+          "description": "This sample showcases how to handle deferred purchases using the Google Play Store extensions and configurations.",
+          "displayName": "Google Play Store - 04 Handling Deferred Purchases"
+        },
+        {
+          "path": "Samples~/Google Play Store - 05 FraudDetection",
+          "description": "This sample showcases how to provide to the Google Play Store your user's identifiers to help prevent fraud.",
+          "displayName": "Google Play Store - 05 Fraud Detection"
+        }
+      ],
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.purchasing.git",
+        "type": "git",
+        "revision": "d048512094268963253b336dd8eba44548759d38"
+      },
+      "hideInEditor": false,
+      "relatedPackages": {
+        "com.unity.purchasing.tests": "4.11.0"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.purchasing@4.11/manual/index.html",
+      "name": "com.unity.purchasing",
+      "version": "4.11.0",
+      "displayName": "In App Purchasing",
+      "description": "IMPORTANT UPGRADE NOTES:\n\nIf updating from Unity IAP (com.unity.purchasing + the Asset Store plugin) versions 2.x to version 3.x, complete the following actions in order to resolve compilation errors:\n 1. Move IAPProductCatalog.json and BillingMode.json\n\tFROM: Assets/Plugins/UnityPurchasing/Resources/\n\tTO: Assets/Resources/.\n 2. Move AppleTangle.cs and GooglePlayTangle.cs\n\tFROM: Assets/Plugins/UnityPurchasing/generated\n\tTO: Assets/Scripts/UnityPurchasing/generated.\n 3. Remove all remaining Asset Store plugin folders and files in Assets/Plugins/UnityPurchasing from your project.\n\nPACKAGE DESCRIPTION:\n\nWith Unity IAP, setting up in-app purchases for your game across multiple app stores has never been easier.\n\nThis package provides:\n\n ▪ One common API to access all stores for free so you can fully understand and optimize your in-game economy\n ▪ Automatic coupling with Unity Analytics to enable monitoring and decision-making based on trends in your revenue and purchase data across multiple platforms\n ▪ Support for iOS, Mac, tvOS, Google Play, Windows, and Amazon app stores(*).\n ▪ Support to work with the Unity Distribution Portal to synchronize catalogs and transactions with other app stores\n ▪ Client-side receipt validation for Apple App Store and Google Play\n\nAfter installing this package, open the Services Window to enable In-App Purchasing to use these features.",
+      "keywords": [
+        "purchasing",
+        "iap",
+        "unity"
+      ],
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.services.core": "1.13.0",
+        "com.unity.modules.androidjni": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "dist": {
+        "shasum": "39322a40562bfdf3092d0e46b0875cbe2a939d51406722c3321dec1604fbbeb7",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.purchasing-4.11.0.tgz"
+      }
+    }
+  },
+  "time": {
+    "4.11.0": "2024-11-19T05:06:11Z"
+  },
+  "dist-tags": {
+    "latest": "4.11.0"
+  },
+  "etag": "\"8940d-/VaDt95DJVt6aHc5womRvftLdng\"",
+  "unity": "5000.1"
+}

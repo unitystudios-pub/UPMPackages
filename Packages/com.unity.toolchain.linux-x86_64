@@ -1,0 +1,39 @@
+{
+  "_id": "com.unity.toolchain.linux-x86_64",
+  "name": "com.unity.toolchain.linux-x86_64",
+  "description": "Toolchain to build player target Linux x86_64 on host Linux x86_64",
+  "provider": "upm",
+  "versions": {
+    "2.0.10": {
+      "_upm": {
+        "changelog": "Optimized and reduced package size"
+      },
+      "unity": "2019.4",
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.toolchain.linux-x86_64@2.0/manual/index.html",
+      "name": "com.unity.toolchain.linux-x86_64",
+      "version": "2.0.10",
+      "displayName": "Toolchain Linux x64",
+      "description": "Toolchain to build player target Linux x86_64 on host Linux x86_64",
+      "keywords": [
+        "toolchain",
+        "linux"
+      ],
+      "dependencies": {
+        "com.unity.sysroot": "2.0.10",
+        "com.unity.sysroot.linux-x86_64": "2.0.9"
+      },
+      "dist": {
+        "shasum": "68cb5f3b5ace8c045dfbbcd3d58df45a3448919cb7ca3d7876191ebab0b1e2c4",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.toolchain.linux-x86_64-2.0.10.tgz"
+      }
+    }
+  },
+  "time": {
+    "2.0.10": "2024-11-19T05:06:23Z"
+  },
+  "dist-tags": {
+    "latest": "2.0.10"
+  },
+  "etag": "\"855a-IeL+nqgYLWHExAXBcqw9MW0zCCI\"",
+  "unity": "5000.1"
+}

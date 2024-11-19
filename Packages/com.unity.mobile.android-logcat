@@ -1,0 +1,45 @@
+{
+  "_id": "com.unity.mobile.android-logcat",
+  "name": "com.unity.mobile.android-logcat",
+  "description": "Android Logcat package provides support for:\n - Android log messages\n - Android application memory statistics\n - Input injection\n - Android Screen Capture\n - Android Screen Recorder\n - Stacktrace Utility\n\nClick the 'View documentation' link above for more information.\n\nThe window can be accessed in Unity Editor via 'Window > Analysis > Android Logcat', or simply by pressing 'Alt+6' on Windows or 'Option+6' on macOS. \n\nMake sure to have Android module loaded and switch to Android build target in 'Build Settings' window if the menu doesn't exist.",
+  "provider": "upm",
+  "versions": {
+    "1.4.3": {
+      "_upm": {
+        "changelog": "### Fixes & Improvements\n - Fix Screen Capture window not saving last image/video save location correctly between Unity domain reloads or launches, previously it would always reset to Unity project directory.\n - Fix compatability issues with future Unity versions."
+      },
+      "unity": "2021.3",
+      "upmCi": {
+        "footprint": "271e70680c760c3db915ef71bf86a6f7f6318d4c"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.mobile.logcat.git",
+        "type": "git",
+        "revision": "dbddf951bd5d17fbd9405673bb238aec8cba201e"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.mobile.android-logcat@1.4/manual/index.html",
+      "name": "com.unity.mobile.android-logcat",
+      "version": "1.4.3",
+      "displayName": "Android Logcat",
+      "description": "Android Logcat package provides support for:\n - Android log messages\n - Android application memory statistics\n - Input injection\n - Android Screen Capture\n - Android Screen Recorder\n - Stacktrace Utility\n\nClick the 'View documentation' link above for more information.\n\nThe window can be accessed in Unity Editor via 'Window > Analysis > Android Logcat', or simply by pressing 'Alt+6' on Windows or 'Option+6' on macOS. \n\nMake sure to have Android module loaded and switch to Android build target in 'Build Settings' window if the menu doesn't exist.",
+      "keywords": [
+        "Mobile",
+        "Android",
+        "Logcat"
+      ],
+      "dependencies": {},
+      "dist": {
+        "shasum": "3f3a9a670fd866baacd03a51b573337fcf381ddecef0cadbe743d2d3fb2aaa96",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.mobile.android-logcat-1.4.3.tgz"
+      }
+    }
+  },
+  "time": {
+    "1.4.3": "2024-11-19T05:06:08Z"
+  },
+  "dist-tags": {
+    "latest": "1.4.3"
+  },
+  "etag": "\"70a8-UKBpCxPH+i2w604m4NIcj83UT+c\"",
+  "unity": "5000.1"
+}

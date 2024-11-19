@@ -1,0 +1,46 @@
+{
+  "_id": "com.unity.sysroot",
+  "name": "com.unity.sysroot",
+  "description": "This is the base sysroot package required by all sysroot and toolchain packages",
+  "provider": "upm",
+  "versions": {
+    "2.0.10": {
+      "_upm": {
+        "changelog": "bump version number to publish"
+      },
+      "type": "assets",
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "8753174da37b75e03036d4e364195bc2b9c05e79"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "48e503c8f30007e813fbcec90dc84795285406b4"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.sysroot@2.0/manual/index.html",
+      "name": "com.unity.sysroot",
+      "version": "2.0.10",
+      "displayName": "Sysroot Base",
+      "description": "This is the base sysroot package required by all sysroot and toolchain packages",
+      "keywords": [
+        "unity",
+        "linux",
+        "sysroot"
+      ],
+      "dependencies": {},
+      "dist": {
+        "shasum": "3119c58b054f44c38abdfd3b3391a5acba66fdd31b711ddee364b6c5cf67ff11",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.sysroot-2.0.10.tgz"
+      }
+    }
+  },
+  "time": {
+    "2.0.10": "2024-11-19T05:06:22Z"
+  },
+  "dist-tags": {
+    "latest": "2.0.10"
+  },
+  "etag": "\"6911-NoMcbbWTSIPsSNH0l//3Ci1QeO4\"",
+  "unity": "5000.1"
+}

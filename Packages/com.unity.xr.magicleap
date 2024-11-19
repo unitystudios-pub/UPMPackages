@@ -1,0 +1,70 @@
+{
+  "_id": "com.unity.xr.magicleap",
+  "name": "com.unity.xr.magicleap",
+  "description": "Provides rendering and spatial mapping support for Magic Leap 2.\n\nThis package will be deprecated after Unity 6.\n(See Documentation for more detailed information.)",
+  "provider": "upm",
+  "versions": {
+    "7.0.0": {
+      "_upm": {
+        "changelog": "- When there is no SegmentedDimmer RenderFeature to control the ML2 dimmer, the depthbuffer will be used to prime the dimmer data.\n- Updating Project Validation to follow the visual standard recently laid out.\n- Allow apps to disable enforcement of Main Camera's minimum near clip distance through the RenderSettings.enforceNearClip bool."
+      },
+      "type": "asset",
+      "unity": "2022.2",
+      "upmCi": {
+        "footprint": "e0c894d92782fcba7ee23788faf4a5defc99f115"
+      },
+      "samples": [
+        {
+          "path": "Samples~/InputProviders",
+          "description": "Example code showing how to implement custom pose providers for MagicLeap using XR Input",
+          "displayName": "Example XR Input Pose Providers - Requires Legacy Input Helpers 2.1.2"
+        },
+        {
+          "path": "Samples~/Rendering",
+          "description": "Example code showing how to implement MagicLeap-specific rendering optimizations",
+          "displayName": "MagicLeap Rendering Samples"
+        }
+      ],
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/xr.sdk.magicleap.git",
+        "type": "git",
+        "revision": "ad4312c5c8f60e2b172a47491a9a7cc06c0cf32f"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.xr.magicleap@7.0/manual/index.html",
+      "name": "com.unity.xr.magicleap",
+      "version": "7.0.0",
+      "displayName": "Magic Leap XR Plugin",
+      "description": "Provides rendering and spatial mapping support for Magic Leap 2.",
+      "keywords": [
+        "magicleap",
+        "ar",
+        "augmented",
+        "xr",
+        "reality",
+        "xreditorsubsystem"
+      ],
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.vr": "1.0.0",
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.xr.management": "4.4.1",
+        "com.unity.xr.arfoundation": "5.1.5",
+        "com.unity.modules.androidjni": "1.0.0",
+        "com.unity.modules.screencapture": "1.0.0",
+        "com.unity.xr.interactionsubsystems": "2.0.0"
+      },
+      "dist": {
+        "shasum": "d2c28fae4994e163f948cee235bb07766db01f08b064f2e85a2b2769574334c1",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.xr.magicleap-7.0.0.tgz"
+      }
+    }
+  },
+  "time": {
+    "7.0.0": "2024-11-19T05:06:28Z"
+  },
+  "dist-tags": {
+    "latest": "7.0.0"
+  },
+  "etag": "\"1a6f0-QG4zB2YeccXPSY/Vw6ZKEbFpTNE\"",
+  "unity": "5000.1"
+}

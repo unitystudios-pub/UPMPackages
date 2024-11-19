@@ -1,0 +1,53 @@
+{
+  "_id": "com.unity.editorcoroutines",
+  "name": "com.unity.editorcoroutines",
+  "description": "The editor coroutines package allows developers to start constructs similar to Unity's monobehaviour based coroutines within the editor using abitrary objects. ",
+  "provider": "upm",
+  "versions": {
+    "1.0.0": {
+      "_id": "com.unity.editorcoroutines@1.0.0",
+      "type": "asset",
+      "_from": "../../../var/folders/tn/t8btbstx12l33r08ww_2c0_1_q91g9/T/com.unity.editorcoroutines-1.0.0.tgz",
+      "unity": "2018.1",
+      "readme": "Editor Coroutines",
+      "_shasum": "7d48783e7b8cfcee5f8ef9ba787ed0d9dad4ebca",
+      "scripts": {},
+      "_npmUser": {},
+      "_resolved": "file:../../../var/folders/tn/t8btbstx12l33r08ww_2c0_1_q91g9/T/com.unity.editorcoroutines-1.0.0.tgz",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.editorcoroutines.git",
+        "type": "git",
+        "revision": "f67fc9992bbc7a553b17375de53a8b2db136528e",
+        "footprint": "91e3fb8c8cff373235a5ba68d1a9cabd02080f3e"
+      },
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.10.0",
+      "readmeFilename": "README.md",
+      "relatedPackages": {
+        "com.unity.editorcoroutines.tests": "1.0.0"
+      },
+      "name": "com.unity.editorcoroutines",
+      "version": "1.0.0",
+      "displayName": "Editor Coroutines",
+      "description": "The editor coroutines package allows developers to start constructs similar to Unity's monobehaviour based coroutines within the editor using abitrary objects. ",
+      "keywords": [
+        "coroutine",
+        "coroutines",
+        "editor"
+      ],
+      "dependencies": {},
+      "dist": {
+        "shasum": "33bdb236bfb5d5dcc92e91e83354d7315d860bf8adef5ba2b7641bbff09f967b",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.editorcoroutines-1.0.0.tgz"
+      }
+    }
+  },
+  "time": {
+    "1.0.0": "2024-11-19T05:06:05Z"
+  },
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "etag": "\"209d-zYk638VwGdrZJ0Fa0Xq70hueqUI\"",
+  "unity": "5000.1"
+}

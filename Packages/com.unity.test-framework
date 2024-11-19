@@ -1,0 +1,253 @@
+{
+  "_id": "com.unity.test-framework",
+  "name": "com.unity.test-framework",
+  "description": "Test framework for running Edit mode and Play mode tests in Unity.",
+  "provider": "upm",
+  "versions": {
+    "1.3.9": {
+      "_upm": {
+        "changelog": "- By using the editor command line new argument `-randomOrderSeed x` you can run the tests in a randomized order, where x is an integer different from 0. If a new test is added in the project the random order passing the same seed will be kept, and the new test will be placed in the random list accordigly.\n- Fix for WebGL platform target to close the browser tab when the run is completed. \n- Added TestFileReferences.json to be generated on build step of the player, so can be consumed later by Test runners to enrich data for run part."
+      },
+      "type": "assets",
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "afab85ea939bfda57db27d19b4c56f006adbe470"
+      },
+      "samples": [
+        {
+          "path": "Samples~/1_RunningTest_Project",
+          "description": "This exercise will teach you how to set up a simple Unity project with a test assembly and tests.",
+          "displayName": "Exercise 1: Running Tests",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/1_RunningTest_Project_Solution",
+          "description": "This exercise will teach you how to set up a simple Unity project with a test assembly and tests.",
+          "displayName": "Exercise 1: Solution",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/2_ActArrangeAssert",
+          "description": "In this exercise, you will learn about the core unit testing principle of AAA (Arrange, Act, Assert), which will help you structure your unit test.",
+          "displayName": "Exercise 2: Arrange, Act, Assert",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/2_ActArrangeAssert_Solution",
+          "description": "In this exercise, you will learn about the core unit testing principle of AAA (Arrange, Act, Assert), which will help you structure your unit test.",
+          "displayName": "Exercise 2: Solution",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/3_SemanticTestAssertion",
+          "description": "You will be introduced to the Assert.That and related classes.",
+          "displayName": "Exercise 3: Semantic Test Assertion",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/3_SemanticTestAssertion_Solution",
+          "description": "You will be introduced to the Assert.That and related classes.",
+          "displayName": "Exercise 3: Solution",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/4_CustomComparison",
+          "description": "This exercise will cover the custom equality comparers included in UTF, such as Vector3EqualityComparer. These are used to assert on e.g. Vectors.",
+          "displayName": "Exercise 4: Custom Comparison",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/4_CustomComparison_Solution",
+          "description": "This exercise will cover the custom equality comparers included in UTF, such as Vector3EqualityComparer. These are used to assert on e.g. Vectors.",
+          "displayName": "Exercise 4: Solution",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/5_AssertingLogs",
+          "description": "How to test and verify code that logs to the console log.",
+          "displayName": "Exercise 5: Asserting Logs",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/5_AssertingLogs_Solution",
+          "description": "How to test and verify code that logs to the console log.",
+          "displayName": "Exercise 5: Solution",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/6_SetUpTearDown",
+          "description": "In this exercise, you will get practical experience in using the NUnit attributes [SetUp] and [TearDown] in order to reduce code duplication in your tests.",
+          "displayName": "Exercise 6: Set Up and Tear Down",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/6_SetUpTearDown_Solution",
+          "description": "In this exercise, you will get practical experience in using the NUnit attributes [SetUp] and [TearDown] in order to reduce code duplication in your tests.",
+          "displayName": "Exercise 6: Solution",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/7_PlayModeTests",
+          "description": "This exercise introduces the concept of PlayMode tests and will teach you when to use PlayMode tests, how to set up assembly definition for PlayMode tests, and how to run tests in PlayMode.",
+          "displayName": "Exercise 7: PlayMode Tests",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/7_PlayModeTests_Solution",
+          "description": "This exercise introduces the concept of PlayMode tests and will teach you when to use PlayMode tests, how to set up assembly definition for PlayMode tests, and how to run tests in PlayMode.",
+          "displayName": "Exercise 7: Solution",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/8_PlayModeTests_InPlayer",
+          "description": "This section will teach you how to run PlayMode tests in a Standalone player on your machine.",
+          "displayName": "Exercise 8: PlayMode Tests in Player",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/9_UnityTestAttribute",
+          "description": "This section will introduce you to the custom UnityTest Attribute, which allows for creating test that runs over multiple frames.",
+          "displayName": "Exercise 9: UnityTest Attribute",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/9_UnityTestAttribute_Solution",
+          "description": "This section will introduce you to the custom UnityTest Attribute, which allows for creating test that runs over multiple frames.",
+          "displayName": "Exercise 9: Solution",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/10_LongRunningTests",
+          "description": "This exercise will cover best practices and pitfalls for tests that have a long runtime, such as tests yielding back a WaitForSeconds.",
+          "displayName": "Exercise 10: Long Running Tests",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/10_LongRunningTests_Solution",
+          "description": "This exercise will cover best practices and pitfalls for tests that have a long runtime, such as tests yielding back a WaitForSeconds.",
+          "displayName": "Exercise 10: Solution",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/11_SceneBasedTests",
+          "description": "In this exercise, you will learn how to test content that is stored in a scene.",
+          "displayName": "Exercise 11: Scene Based Tests",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/11_SceneBasedTests_Solution",
+          "description": "In this exercise, you will learn how to test content that is stored in a scene.",
+          "displayName": "Exercise 11: Solution",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/12_BuildSetupCleanup",
+          "description": "This section will introduce you to the hooks in the test framework for before and after the player build.",
+          "displayName": "Exercise 12: Build Setup and Cleanup",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/12_BuildSetupCleanup_Solution",
+          "description": "This section will introduce you to the hooks in the test framework for before and after the player build.",
+          "displayName": "Exercise 12: Solution",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/13_DomainReload",
+          "description": "In this section, you will learn how to invoke and wait for Domain Reloads.",
+          "displayName": "Exercise 13: Domain Reload",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/13_DomainReload_Solution",
+          "description": "In this section, you will learn how to invoke and wait for Domain Reloads.",
+          "displayName": "Exercise 13: Solution",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/14_PreserveTestState",
+          "description": "This section will cover how to let variables and information in your tests survive domain reloads using serialization.",
+          "displayName": "Exercise 14: Preserve Test State",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/14_PreserveTestState_Solution",
+          "description": "This section will cover how to let variables and information in your tests survive domain reloads using serialization.",
+          "displayName": "Exercise 14: Solution",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/15_TestCases",
+          "description": "This section will cover [TestCase] and similar NUnit attributes and how to work with them in UnityTests.",
+          "displayName": "Exercise 15: Test Cases",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/15_TestCases_Solution",
+          "description": "This section will cover [TestCase] and similar NUnit attributes and how to work with them in UnityTests.",
+          "displayName": "Exercise 15: Solution",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/16_CustomAttributes",
+          "description": "In this section we will look at some ways of implementing custom NUnit attributes, which can be used to alter test execution.",
+          "displayName": "Exercise 16: Custom Attributes",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/16_CustomAttributes_Solution",
+          "description": "In this section we will look at some ways of implementing custom NUnit attributes, which can be used to alter test execution.",
+          "displayName": "Exercise 16: Solution",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/17_RunningTestsProgrammatically",
+          "description": "This section will introduce the TestRunnerApi, teaching you how to trigger a test run programmatically.",
+          "displayName": "Exercise 17: Runnings Tests Programmatically",
+          "interactiveImport": true
+        },
+        {
+          "path": "Samples~/17_RunningTestsProgrammatically_Solution",
+          "description": "This section will introduce the TestRunnerApi, teaching you how to trigger a test run programmatically.",
+          "displayName": "Exercise 17: Solution",
+          "interactiveImport": true
+        }
+      ],
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.test-framework.git",
+        "type": "git",
+        "revision": "5c8a1448cee4d7607be0d60dceb66703b0cfe016"
+      },
+      "unityRelease": "0a10",
+      "relatedPackages": {
+        "com.unity.test-framework.tests": "1.3.9"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.test-framework@1.3/manual/index.html",
+      "name": "com.unity.test-framework",
+      "version": "1.3.9",
+      "displayName": "Test Framework",
+      "description": "Test framework for running Edit mode and Play mode tests in Unity.",
+      "keywords": [
+        "Test",
+        "TestFramework"
+      ],
+      "dependencies": {
+        "com.unity.ext.nunit": "2.0.5",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "dist": {
+        "shasum": "08f6596f69e42b4e94d62911f77724712ea5b41aca1ded779d533253349ff486",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.test-framework-1.3.9.tgz"
+      }
+    }
+  },
+  "time": {
+    "1.3.9": "2024-11-19T05:06:23Z"
+  },
+  "dist-tags": {
+    "latest": "1.3.9"
+  },
+  "etag": "\"2ea10-96qGPhfezn9oxC2GsfXbIZk/Yh4\"",
+  "unity": "5000.1"
+}

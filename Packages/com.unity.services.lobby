@@ -1,0 +1,67 @@
+{
+  "_id": "com.unity.services.lobby",
+  "name": "com.unity.services.lobby",
+  "description": "Enable players to find, create, and join lobbies with Lobby. Add Lobby to your multiplayer game to empower players to create the gaming experiences they want. Features include Quick Join, Public Lobby, and Private Match to allow flexibility in how players want to game with each other.",
+  "provider": "upm",
+  "versions": {
+    "1.2.2": {
+      "_upm": {
+        "changelog": "* Updated dependency of com.unity.services.wire to 1.2.6\n* Fixed an issue where the notification system would fail to reconnect silently.",
+        "gameService": {
+          "useCasesUrl": "https://docs.unity.com/lobby/Content/unity-lobby-service-overview.htm",
+          "genericDashboardUrl": "https://dashboard.unity3d.com/lobby",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/environments/default/lobby/overview",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid"
+        }
+      },
+      "type": "assets",
+      "unity": "2020.3",
+      "upmCi": {
+        "footprint": "74c98aa341ed7d690f66ee2ba62a9a871e9870cf"
+      },
+      "samples": [
+        {
+          "path": "Samples~/HelloWorld",
+          "description": "A sample showcasing the features of the Lobby SDK.",
+          "displayName": "Lobby Hello World"
+        }
+      ],
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+        "type": "git",
+        "revision": "b494958143a0a6c8f586e9cea6121838c84dda6b"
+      },
+      "relatedPackages": {
+        "com.unity.services.lobby.tests": "1.2.2"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.lobby@1.2/manual/index.html",
+      "name": "com.unity.services.lobby",
+      "version": "1.2.2",
+      "displayName": "Lobby",
+      "description": "Enable players to find, create, and join lobbies with Lobby. Add Lobby to your multiplayer game to empower players to create the gaming experiences they want. Features include Quick Join, Public Lobby, and Private Match to allow flexibility in how players want to game with each other.",
+      "dependencies": {
+        "com.unity.services.core": "1.13.0",
+        "com.unity.services.wire": "1.2.6",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.services.authentication": "3.3.3",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.modules.unitywebrequestaudio": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
+      },
+      "dist": {
+        "shasum": "69dfe59d84a2120bbea929cb54a26ada862b1b9b0b3599ccc0060f36c3cc3943",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.services.lobby-1.2.2.tgz"
+      }
+    }
+  },
+  "time": {
+    "1.2.2": "2024-11-19T05:06:15Z"
+  },
+  "dist-tags": {
+    "latest": "1.2.2"
+  },
+  "etag": "\"8f9f-4t4h18dnqkTZ4enIbWqjxXLUmFk\"",
+  "unity": "5000.1"
+}
