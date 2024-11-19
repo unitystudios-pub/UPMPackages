@@ -1,0 +1,62 @@
+{
+  "_id": "com.unity.ai.navigation",
+  "name": "com.unity.ai.navigation",
+  "description": "The AI Navigation package contains high-level components that allow you to use navmeshes to incorporate navigation and pathfinding in your game. With this package installed you can build and use navmeshes at runtime and at edit time, create dynamic obstacles, and use links to allow specific actions (like jumping) as your characters navigate between navmeshes.",
+  "provider": "upm",
+  "versions": {
+    "2.0.5": {
+      "_upm": {
+        "changelog": "### Fixed\n* NavMesh Link would not update when switching from the **Not Walkable** area type to any other area type in the inspector. (NAVB-87)\n* A few documentation paragraphs and links were not accurate."
+      },
+      "unity": "2023.2",
+      "samples": [
+        {
+          "path": "Samples~",
+          "description": "A set of examples on how to build and use a dynamic navigation space made of NavMesh surfaces and segment-to-segment connections.",
+          "displayName": "Build And Connect NavMesh Surfaces"
+        }
+      ],
+      "unityRelease": "0a18",
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html",
+      "name": "com.unity.ai.navigation",
+      "version": "2.0.5",
+      "displayName": "AI Navigation",
+      "description": "The AI Navigation package contains high-level components that allow you to use navmeshes to incorporate navigation and pathfinding in your game. With this package installed you can build and use navmeshes at runtime and at edit time, create dynamic obstacles, and use links to allow specific actions (like jumping) as your characters navigate between navmeshes.",
+      "keywords": [
+        "carving",
+        "mesh",
+        "navigation",
+        "navmesh",
+        "NavMesh",
+        "navmesh agent",
+        "navmesh link",
+        "navmeshlink",
+        "navmesh modifier",
+        "navmeshmodifier",
+        "navmesh modifier volume",
+        "navmeshmodifiervolume",
+        "navmesh obstacle",
+        "navmesh surface",
+        "navmeshsurface",
+        "offmesh link",
+        "off-mesh link",
+        "pathfinding"
+      ],
+      "dependencies": {
+        "com.unity.modules.ai": "1.0.0"
+      },
+      "dist": {
+        "shasum": "74c6f829432b47ef86a014e8a622a29097998fd4a5b104b1e51fe8de30ac0046",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.ai.navigation-2.0.5.tgz"
+      }
+    }
+  },
+  "time": {
+    "2.0.5": "2024-11-19T05:05:59Z"
+  },
+  "dist-tags": {
+    "latest": "2.0.5"
+  },
+  "etag": "\"966b-T08wPHAbr7TD9Ro9RL3JFomPAc0\"",
+  "unity": "5000.1"
+}

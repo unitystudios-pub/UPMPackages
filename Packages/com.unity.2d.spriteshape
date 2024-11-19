@@ -1,0 +1,56 @@
+{
+  "_id": "com.unity.2d.spriteshape",
+  "name": "com.unity.2d.spriteshape",
+  "description": "SpriteShape Runtime & Editor Package contains the tooling and the runtime component that allows you to create very organic looking spline based 2D worlds. It comes with intuitive configurator and a highly performant renderer.",
+  "provider": "upm",
+  "versions": {
+    "10.0.7": {
+      "_upm": {
+        "changelog": "### Fixed\n- DANB-731 \"System.IndexOutOfRangeException\" is thrown when increasing Sprite Shape Mesh size beyond limits"
+      },
+      "unity": "2023.1",
+      "samples": [
+        {
+          "path": "Samples~/Samples",
+          "description": "Samples to get started with SpriteShape",
+          "displayName": "Sprite Shape Samples"
+        },
+        {
+          "path": "Samples~/Extras",
+          "description": "This sample has utility scripts that has various use-cases of SpriteShape",
+          "displayName": "Sprite Shape Extras"
+        }
+      ],
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@10.0/manual/index.html",
+      "name": "com.unity.2d.spriteshape",
+      "version": "10.0.7",
+      "displayName": "2D SpriteShape",
+      "description": "SpriteShape Runtime & Editor Package contains the tooling and the runtime component that allows you to create very organic looking spline based 2D worlds. It comes with intuitive configurator and a highly performant renderer.",
+      "keywords": [
+        "2d",
+        "shape",
+        "spriteshape",
+        "smartsprite",
+        "spline",
+        "terrain2d"
+      ],
+      "dependencies": {
+        "com.unity.2d.common": "9.0.7",
+        "com.unity.mathematics": "1.3.1",
+        "com.unity.modules.physics2d": "1.0.0"
+      },
+      "dist": {
+        "shasum": "e27c1332c67e0e8eeab1ceb891d45e332454d15ed8bc86b0ea906b31643cc30d",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.2d.spriteshape-10.0.7.tgz"
+      }
+    }
+  },
+  "time": {
+    "10.0.7": "2024-11-19T05:05:58Z"
+  },
+  "dist-tags": {
+    "latest": "10.0.7"
+  },
+  "etag": "\"2e3db-lsIA2q+f3G+fWZ+qRm7jK380/tM\"",
+  "unity": "5000.1"
+}

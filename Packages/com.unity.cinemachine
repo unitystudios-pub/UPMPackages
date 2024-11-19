@@ -1,0 +1,65 @@
+{
+  "_id": "com.unity.cinemachine",
+  "name": "com.unity.cinemachine",
+  "description": "Smart camera tools for passionate creators. \n\nCinemachine 3 is a newer and better version of Cinemachine, but upgrading an existing project from 2.X will likely require some effort.  If you're considering upgrading an older project, please see our upgrade guide in the user manual.",
+  "provider": "upm",
+  "versions": {
+    "2.10.3": {
+      "_upm": {
+        "changelog": "- Regression fix: Small changes to camera position and rotation were being filtered out."
+      },
+      "unity": "2019.4",
+      "samples": [
+        {
+          "path": "Samples~/Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "displayName": "Cinemachine Example Scenes"
+        }
+      ],
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.cinemachine@2.10/manual/index.html",
+      "name": "com.unity.cinemachine",
+      "version": "2.10.3",
+      "displayName": "Cinemachine",
+      "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "dependencies": {
+        "com.unity.test-framework": "1.3.9"
+      },
+      "dist": {
+        "shasum": "79dc4722f1ce45ea484b491bdc40e7cdc8c8915194f043ca939511e9fb6c570e",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.cinemachine-2.10.3.tgz"
+      }
+    }
+  },
+  "time": {
+    "2.10.3": "2024-11-19T05:06:04Z"
+  },
+  "dist-tags": {
+    "latest": "2.10.3"
+  },
+  "etag": "\"33acb-ptvSYmP4omtha4n258jA+0fuK8s\"",
+  "unity": "5000.1"
+}
