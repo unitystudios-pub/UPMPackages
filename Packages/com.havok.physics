@@ -1,0 +1,54 @@
+{
+  "_id": "com.havok.physics",
+  "name": "com.havok.physics",
+  "description": "Havok Physics for Unity is available to Pro, Enterprise, and Unity Industrial Collection users.\n\nHavok's award winning physics engine, applied to Unity’s Entity Component System (ECS)  framework. Havok Physics for Unity augments the Unity Physics package, allowing physics scenes authored for ECS to be simulated using the Havok Physics engine.",
+  "provider": "upm",
+  "versions": {
+    "1.0.16": {
+      "_upm": {
+        "changelog": "### Changed\n\n* Updated Burst dependency to version 1.8.8\n* Updated com.unity.physics version to 1.0.16"
+      },
+      "type": "assets",
+      "unity": "2022.3",
+      "upmCi": {
+        "footprint": "2d0eab659cc835d8c1a4b521701a29ce1f57312e"
+      },
+      "author": {
+        "name": "Microsoft"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/dots.git",
+        "type": "git",
+        "revision": "8f9a34fef643cca2b5f84470ac61c171c1831168"
+      },
+      "unityRelease": "0f1",
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.havok.physics@1.0/manual/index.html",
+      "name": "com.havok.physics",
+      "version": "1.0.16",
+      "displayName": "Havok Physics for Unity",
+      "description": "Havok Physics for Unity is available to Pro, Enterprise, and Unity Industrial Collection users.\n\nHavok's award winning physics engine, applied to Unity’s Entity Component System (ECS)  framework. Havok Physics for Unity augments the Unity Physics package, allowing physics scenes authored for ECS to be simulated using the Havok Physics engine.",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "dependencies": {
+        "com.unity.burst": "1.8.8",
+        "com.unity.physics": "1.0.16",
+        "com.unity.entities": "1.0.16",
+        "com.unity.collections": "2.1.4",
+        "com.unity.mathematics": "1.2.6"
+      },
+      "dist": {
+        "shasum": "772285a07e880df8e3e752e50ab25fd5fb6975c8",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.havok.physics-1.0.16.tgz"
+      }
+    }
+  },
+  "time": {
+    "1.0.16": "2024-11-19T04:06:14Z"
+  },
+  "dist-tags": {
+    "latest": "1.0.16"
+  },
+  "etag": "\"f053-I0hRRwRPk/VkryM/F9GWBqiPtRE\""
+}

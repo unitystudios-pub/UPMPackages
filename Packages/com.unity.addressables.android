@@ -1,0 +1,49 @@
+{
+  "_id": "com.unity.addressables.android",
+  "name": "com.unity.addressables.android",
+  "description": "The Addressables for Android package is designed to work in conjunction with the Addressables package to support Play Asset Delivery and provides tools to pack Addressables groups into Android asset packs. This way you can take full advantage of asset pack based dynamic delivery, including Texture Compression Targeting support when it's enabled for your project.",
+  "provider": "upm",
+  "versions": {
+    "1.0.4": {
+      "_upm": {
+        "changelog": "Fixed problem with building Addressables content when the empty folder is added to the addressable group."
+      },
+      "unity": "2023.2",
+      "upmCi": {
+        "footprint": "0682958d1f382ce5587f8d16dc79706fdb648580"
+      },
+      "samples": [
+        {
+          "path": "Samples~/PlayAssetDeliverySample",
+          "description": "Contains complete set of assets to demonstrate usage of the Addressable Play Asset Delivery support. This sample is intended to be imported into an empty Unity project with Unity UI package installed and which uses built-in render pipeline.",
+          "displayName": "Play Asset Delivery sample",
+          "interactiveImport": true
+        }
+      ],
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.addressables.android.git",
+        "type": "git",
+        "revision": "6f70058a36e977c51db4fe8fd324c1afc9195abd"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.addressables.android@1.0/manual/index.html",
+      "name": "com.unity.addressables.android",
+      "version": "1.0.4",
+      "displayName": "Addressables for Android",
+      "description": "The Addressables for Android package is designed to work in conjunction with the Addressables package to support Play Asset Delivery and provides tools to pack Addressables groups into Android asset packs. This way you can take full advantage of asset pack based dynamic delivery, including Texture Compression Targeting support when it's enabled for your project.",
+      "dependencies": {
+        "com.unity.addressables": "1.21.20"
+      },
+      "dist": {
+        "shasum": "c587d16e53b00e7ed2d8486d5ef735314e7d0186",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.addressables.android-1.0.4.tgz"
+      }
+    }
+  },
+  "time": {
+    "1.0.4": "2024-11-19T04:06:16Z"
+  },
+  "dist-tags": {
+    "latest": "1.0.4"
+  },
+  "etag": "\"23c6-Bx1TnGhjTnN21CNMrgiCUhJ3lbI\""
+}

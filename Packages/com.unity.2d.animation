@@ -1,0 +1,48 @@
+{
+  "_id": "com.unity.2d.animation",
+  "name": "com.unity.2d.animation",
+  "description": "2D Animation provides all the necessary tooling and runtime components for skeletal animation using Sprites.",
+  "provider": "upm",
+  "versions": {
+    "10.1.4": {
+      "_upm": {
+        "changelog": "### Fixed\n- Animation Preview window sometimes does not display deformed Sprites. (DANB-705)\n- Sprite Resolver missing sprite previews when dealing with large number of entries. (DANB-714)\n- Misaligned label previews in Sprite Resolver's inspector. (DANB-722)\n- Sprite Resolver component not updated after Sprite Library Asset has been modified. (DANB-727)\n- Sprite Skin breaks in the animation preview window after sprite swap. (DANB-743)\n- IK gizmos are displayed in the SceneView when IKManager2D is active in Animation Preview window. (DANB-738)\n- IK solvers are misaligned when bones have different depths. (DANB-753)\n- Rendering issues with SRP Batching and Sprite mask. (DANB-760)\n- Unable to drag sprites into empty rows of the Sprite Library Editor. (DANB-749)\n- Sprite Skin deformation systems have outdated data after sprite swap. (DANB-766)\n- Setting incorrect computer buffer size. (DANB-768)\n- Reenable editor tests.\n- Bone buffer binding issues.\n- Sprite changed callback listeners."
+      },
+      "unity": "2023.1",
+      "samples": [
+        {
+          "path": "Samples~/AnimationSamples",
+          "description": "Various 2D Animation sample scenes to show different usage of the 2D Animation tooling for various outcomes.",
+          "displayName": "Samples"
+        }
+      ],
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.2d.animation@10.1/manual/index.html",
+      "name": "com.unity.2d.animation",
+      "version": "10.1.4",
+      "displayName": "2D Animation",
+      "description": "2D Animation provides all the necessary tooling and runtime components for skeletal animation using Sprites.",
+      "keywords": [
+        "2d",
+        "animation"
+      ],
+      "dependencies": {
+        "com.unity.2d.common": "9.0.7",
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.collections": "1.2.4",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.uielements": "1.0.0"
+      },
+      "dist": {
+        "shasum": "494a3b4e73a9ae26677ef6e9fd6bff4ca643770a",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.2d.animation-10.1.4.tgz"
+      }
+    }
+  },
+  "time": {
+    "10.1.4": "2024-11-19T04:06:15Z"
+  },
+  "dist-tags": {
+    "latest": "10.1.4"
+  },
+  "etag": "\"365a7-i4Su4TC5elbQlfaTlKRkmwCxZSQ\""
+}
