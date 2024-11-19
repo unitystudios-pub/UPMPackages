@@ -1,0 +1,69 @@
+{
+  "_id": "com.unity.services.leaderboards",
+  "name": "com.unity.services.leaderboards",
+  "description": "Add socio-competitive elements to your game by allowing users to compete on leaderboards. Use the Leaderboards service to store, sort, and rank player scores powered by Unity Gaming Services.",
+  "provider": "upm",
+  "versions": {
+    "2.0.0": {
+      "_upm": {
+        "changelog": "* Optional object `metadata` in all score-fetching methods. If populated, the object will be stored alongside the score.\n* Optional boolean `includeMetadata` in all score-fetching methods. If true, stored metadata for scores will be returned as part of the `LeaderboardEntry`.\n* Optional integer `limit` on `GetVersionsAsync` method. If set, only the most recent `limit` number of archived versions will be returned. \n* `GetVersionsAsync` now returns string `versionId` (the current version of the leaderboard) and int `totalArchivedVersions` (the total number of archived leaderboard versions stored).\n* Optional string `versionId` on the `AddPlayerScoreAsync` method. If set, the versionId will be compared to the current live leaderboard versionId. If they do not match, the score will not be submitted.\n* Editor support for Config-as-Code.",
+        "gameService": {
+          "groupId": "game-backend",
+          "genericDashboardUrl": "https://dashboard.unity3d.com/gaming/leaderboards",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/leaderboards/about",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS",
+          "Linux",
+          "Mac",
+          "PC",
+          "Windows 8 Universal",
+          "Windows 10 Universal",
+          "WebGL"
+        ]
+      },
+      "type": "assets",
+      "unity": "2021.3",
+      "upmCi": {
+        "footprint": "d27c1e96ee03cdb36a467ebdbc1394e1f4e89ea7"
+      },
+      "samples": [
+        {
+          "path": "Samples~/Basic Example",
+          "description": "Example scripts demonstrating the Leaderboards package.",
+          "displayName": "Leaderboards Sample Scene"
+        }
+      ],
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+        "type": "git",
+        "revision": "dc900f2f42085635c80197345bb69d5aaca659d7"
+      },
+      "relatedPackages": {
+        "com.unity.services.leaderboards.tests": "2.0.0"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.leaderboards@2.0/manual/index.html",
+      "name": "com.unity.services.leaderboards",
+      "version": "2.0.0",
+      "displayName": "Leaderboards",
+      "description": "Add socio-competitive elements to your game by allowing users to compete on leaderboards. Use the Leaderboards service to store, sort, and rank player scores powered by Unity Gaming Services.",
+      "dependencies": {
+        "com.unity.services.core": "1.12.0",
+        "com.unity.services.authentication": "3.1.0"
+      },
+      "dist": {
+        "shasum": "7922db237929bfb8fbc7cf95d81bb168156544b6",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.services.leaderboards-2.0.0.tgz"
+      }
+    }
+  },
+  "time": {
+    "2.0.0": "2024-11-19T04:06:25Z"
+  },
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "etag": "\"2463-hzrFor1bWROgsdk5rSE78k3x75Y\""
+}

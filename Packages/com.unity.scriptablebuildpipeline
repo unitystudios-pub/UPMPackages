@@ -1,0 +1,39 @@
+{
+  "_id": "com.unity.scriptablebuildpipeline",
+  "name": "com.unity.scriptablebuildpipeline",
+  "description": "The Scriptable Build Pipeline moves the asset bundle build pipeline to C#.  Use the pre-defined build flows, or create your own using the divided up APIs.  This system improves build time, fixes incremental build, and provides greater flexibility.",
+  "provider": "upm",
+  "versions": {
+    "1.21.25": {
+      "_upm": {
+        "changelog": "- Fixed issue where more than 2 Scriptable Objects are nested and Compatability Pipeline is used to build."
+      },
+      "unity": "2019.4",
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.scriptablebuildpipeline@1.21/manual/index.html",
+      "name": "com.unity.scriptablebuildpipeline",
+      "version": "1.21.25",
+      "displayName": "Scriptable Build Pipeline",
+      "description": "The Scriptable Build Pipeline moves the asset bundle build pipeline to C#.  Use the pre-defined build flows, or create your own using the divided up APIs.  This system improves build time, fixes incremental build, and provides greater flexibility.",
+      "keywords": [
+        "build",
+        "bundle",
+        "bundles",
+        "assetbundles",
+        "cache",
+        "server"
+      ],
+      "dependencies": {},
+      "dist": {
+        "shasum": "317dcf458a0327f0177b38f9c3c923208217c74b",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.scriptablebuildpipeline-1.21.25.tgz"
+      }
+    }
+  },
+  "time": {
+    "1.21.25": "2024-11-19T04:06:23Z"
+  },
+  "dist-tags": {
+    "latest": "1.21.25"
+  },
+  "etag": "\"16d90-0h4nEq+ZsudYjpj+7EObAbKb9nU\""
+}

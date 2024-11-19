@@ -1,0 +1,86 @@
+{
+  "_id": "com.unity.recorder",
+  "name": "com.unity.recorder",
+  "description": "The Recorder allows you to capture and save data from the Unity Editor during Play mode: animations, videos, images, audio, AOVs, and more.",
+  "provider": "upm",
+  "versions": {
+    "5.0.0": {
+      "_upm": {
+        "changelog": "### Added\n- Tutorial in documentation to set up a Unity project with API scripting for starting recordings via a command line.  \n\n### Changed\n- Removed resolution automatic rounding to the nearest even number when Movie Recorder uses MP4 codec and \"Match Window Size\" output resolution.\n\n### Fixed\n- Prevent video output from being corrupted when generated via a Recorder Clip run through a Scene loaded in Play mode.\n- Ensure the project uses the right RenderPipeline settings at all time: quality RenderPipeline settings or default RenderPipeline settings.\n- Ensure that the status messages at the bottom of the Recorder window are always readable even if the window is small."
+      },
+      "type": "assets",
+      "unity": "2023.1",
+      "upmCi": {
+        "footprint": "eef599842769f1b2303d4a05d12cb70e19663200"
+      },
+      "samples": [
+        {
+          "path": "Samples~/CaptureScreenShot",
+          "description": "This example shows how to set up a recording session via script.",
+          "displayName": "Screenshot Capture Sample"
+        },
+        {
+          "path": "Samples~/FFmpegCommandLineEncoder",
+          "description": "Example for integrating a custom command line encoder such as FFmpeg in the Movie Recorder. \n Requires your own FFmpeg executable. Tested with FFmpeg 5.0.1.",
+          "displayName": "Custom Encoder: FFmpeg"
+        },
+        {
+          "path": "Samples~/MovieRecorder",
+          "description": "This example shows how to set up a movie recording session via script.",
+          "displayName": "Movie Recorder Sample"
+        },
+        {
+          "path": "Samples~/MultipleRecordings",
+          "description": "This example shows how to set up a multiple recording session via script.",
+          "displayName": "Multiple Recordings Sample"
+        },
+        {
+          "path": "Samples~/RecorderEditor",
+          "description": "This example shows how to add \"Start Recording\" and \"Stop Recording\" menu items .",
+          "displayName": "Recorder Editor Sample"
+        }
+      ],
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.recorder.git",
+        "type": "git",
+        "revision": "cd750a66bf75ef56d93106b65f5ff599a8eb0016"
+      },
+      "unityRelease": "1f1",
+      "relatedPackages": {
+        "com.unity.recorder.tests": "5.0.0"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.recorder@5.0/manual/index.html",
+      "name": "com.unity.recorder",
+      "version": "5.0.0",
+      "displayName": "Recorder",
+      "description": "The Recorder allows you to capture and save data from the Unity Editor during Play mode: animations, videos, images, audio, and more.",
+      "keywords": [
+        "unity",
+        "recorder",
+        "recording",
+        "capture",
+        "video",
+        "animation",
+        "clip",
+        "images",
+        "render",
+        "pass",
+        "layer"
+      ],
+      "dependencies": {
+        "com.unity.timeline": "1.0.0"
+      },
+      "dist": {
+        "shasum": "8c08a9cb91d4feeeb4c3df4b3de70565138588f1",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.recorder-5.0.0.tgz"
+      }
+    }
+  },
+  "time": {
+    "5.0.0": "2024-11-19T04:06:22Z"
+  },
+  "dist-tags": {
+    "latest": "5.0.0"
+  },
+  "etag": "\"17271-0atNOt4lApSvSNw12wb5DwJZeC0\""
+}

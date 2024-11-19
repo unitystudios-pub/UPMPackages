@@ -1,0 +1,41 @@
+{
+  "_id": "com.unity.formats.fbx",
+  "name": "com.unity.formats.fbx",
+  "description": "The FBX Exporter package enables round-trip workflows between Unity and 3D modeling software. Send geometry, Lights, Cameras, and animation from Unity to Autodesk® Maya®, Autodesk® Maya LT™, or Autodesk® 3ds Max®, and back to Unity again, with minimal effort.",
+  "provider": "upm",
+  "versions": {
+    "5.1.2": {
+      "_upm": {
+        "changelog": "### Added\n- Added destruction of Url and LastUrl FBXScene properties before export.\n- Added a warning about absolute paths when exporting with Texture file references, with an option in Project Settings to disable this warning.\n- Added an option in Project Settings to activate verbose logging mode.\n\n### Removed\n- Removed the deprecated Component Updater from FBX Export Project Settings.\n\n### Fixed\n- Fixed an exception occurring during hierarchy export when an LOD contains a null renderer.\n- Fixed Presets creation in Unity 2023.1+."
+      },
+      "unity": "2020.3",
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.formats.fbx@5.1/manual/index.html",
+      "name": "com.unity.formats.fbx",
+      "version": "5.1.2",
+      "displayName": "FBX Exporter",
+      "description": "The FBX Exporter package enables round-trip workflows between Unity and 3D modeling software. Send geometry, Lights, Cameras, and animation from Unity to Autodesk® Maya®, Autodesk® Maya LT™, or Autodesk® 3ds Max®, and back to Unity again, with minimal effort.",
+      "keywords": [
+        "fbx",
+        "animation",
+        "modeling",
+        "maya",
+        "max"
+      ],
+      "dependencies": {
+        "com.autodesk.fbx": "5.1.1",
+        "com.unity.timeline": "1.7.1"
+      },
+      "dist": {
+        "shasum": "d3e62720eeb145b1ac3b9c577fb356f4ee1138cf",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.formats.fbx-5.1.2.tgz"
+      }
+    }
+  },
+  "time": {
+    "5.1.2": "2024-11-19T04:06:18Z"
+  },
+  "dist-tags": {
+    "latest": "5.1.2"
+  },
+  "etag": "\"c588-8FzHam7F0t+TFg3ZVUygdPy6Y24\""
+}

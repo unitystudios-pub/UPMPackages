@@ -1,0 +1,50 @@
+{
+  "_id": "com.unity.serialization",
+  "name": "com.unity.serialization",
+  "description": "Use Unity's Serialization to serialize and deserialize from/to JSON and Binary formats.",
+  "provider": "upm",
+  "versions": {
+    "3.1.1": {
+      "_upm": {
+        "changelog": "### Changed\n* Updated `com.unity.collections` to version `2.1.4`."
+      },
+      "type": "asset",
+      "unity": "2022.2",
+      "upmCi": {
+        "footprint": "4a126bb109b3bbf0dac86f2b20182cf1542f2850"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.properties.git",
+        "type": "git",
+        "revision": "090f848dff6515cf21787143f17c107644263fe9"
+      },
+      "unityRelease": "0a18",
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.serialization@3.1/manual/index.html",
+      "name": "com.unity.serialization",
+      "version": "3.1.1",
+      "displayName": "Serialization",
+      "description": "Use Unity's Serialization to serialize and deserialize from/to JSON and Binary formats.",
+      "keywords": [
+        "serialization",
+        "json",
+        "binary",
+        "unity"
+      ],
+      "dependencies": {
+        "com.unity.burst": "1.7.2",
+        "com.unity.collections": "2.1.4"
+      },
+      "dist": {
+        "shasum": "a31a78f949b0b327339dbb19be2b93a421251113",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.serialization-3.1.1.tgz"
+      }
+    }
+  },
+  "time": {
+    "3.1.1": "2024-11-19T04:06:23Z"
+  },
+  "dist-tags": {
+    "latest": "3.1.1"
+  },
+  "etag": "\"e56a-4UChPEsoINbmGopSwY1FXscoEMA\""
+}

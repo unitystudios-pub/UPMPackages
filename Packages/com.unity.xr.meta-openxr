@@ -1,0 +1,48 @@
+{
+  "_id": "com.unity.xr.meta-openxr",
+  "name": "com.unity.xr.meta-openxr",
+  "description": "Enables you to build mixed reality apps for Meta Quest devices by implementing support for Meta's OpenXR extensions.",
+  "provider": "upm",
+  "versions": {
+    "1.0.2": {
+      "_upm": {
+        "changelog": "### Changed\n\n- Changed the AR Foundation dependency version from 5.1.0-pre.6 to 5.1.0.\n- Changed the behavior of `MetaOpenXRSessionSubsystem.sessionId` to now return a non-empty, unique Guid value per Meta OpenXR session. You can access the session id using `XRSessionSubsystem.sessionId`.\n\n### Fixed\n\n- Fixed an issue where the subsystem descriptor for `MetaOpenXRPlaneSubsystem` incorrectly stated that horizontal plane detection, vertical plane detection, and classification were unsupported. These features have all been supported since the 1.0 release, and the subsystem descriptor now returns the correct values.\n- Fixed a very rare issue where plane detection could possibly fail to update planes due to an unhandled error.\n- Fixed an issue where trackable poses would fail to update when the OpenXR runtime returned valid but untracked data.\n- Fixed an issue with [BoundedPlane.nativePtr](xref:UnityEngine.XR.ARSubsystems.BoundedPlane.nativePtr) and [XRAnchor.nativePtr](xref:UnityEngine.XR.ARSubsystems.XRAnchor.nativePtr) so they now return a pointer to a struct with a version number and a pointer to the `XrSpace` handle of their respective trackable type. Refer to [Plane native pointer](xref:meta-openxr-planes#Native-pointer) and [Anchor native pointer](xref:meta-openxr-anchors#Native-pointer) for more information."
+      },
+      "unity": "2022.3",
+      "unityRelease": "0f1",
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.xr.meta-openxr@1.0/manual/index.html",
+      "name": "com.unity.xr.meta-openxr",
+      "version": "1.0.2",
+      "displayName": "Unity OpenXR Meta",
+      "description": "Enables you to build mixed reality apps for Meta Quest devices by implementing support for Meta's OpenXR extensions.",
+      "keywords": [
+        "openxr",
+        "meta",
+        "oculus",
+        "xr",
+        "vr",
+        "mr",
+        "virtual",
+        "reality",
+        "rift",
+        "quest",
+        "arfoundation"
+      ],
+      "dependencies": {
+        "com.unity.xr.openxr": "1.7.0",
+        "com.unity.xr.arfoundation": "5.1.0"
+      },
+      "dist": {
+        "shasum": "6ff42f526bf0fcce3e4c86f848e11446e89332b7",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.xr.meta-openxr-1.0.2.tgz"
+      }
+    }
+  },
+  "time": {
+    "1.0.2": "2024-11-19T04:06:30Z"
+  },
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "etag": "\"5153-AqDz+/iI89qLIRHd0fKbcsX2Rpo\""
+}

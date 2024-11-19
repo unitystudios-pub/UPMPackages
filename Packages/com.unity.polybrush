@@ -1,0 +1,69 @@
+{
+  "_id": "com.unity.polybrush",
+  "name": "com.unity.polybrush",
+  "description": "Mesh painting, sculpting, and geo-scattering tool for Unity.",
+  "provider": "upm",
+  "versions": {
+    "1.1.8": {
+      "_upm": {
+        "changelog": "### Bug Fixes\n\n- [POLBR-22] Fixed compilation errors related to the use of FindObjectsByType in affected editors."
+      },
+      "type": "assets",
+      "unity": "2018.4",
+      "upmCi": {
+        "footprint": "0ef3841b8009d73b7b5936f71d155cceed11d339"
+      },
+      "samples": [
+        {
+          "path": "Samples~/SamplesStandard",
+          "description": "Polybrush shader examples compatible with Unity Standard rendering pipeline.",
+          "displayName": "Shader Examples (Standard)"
+        },
+        {
+          "path": "Samples~/SamplesUniversalRP",
+          "description": "Polybrush shader examples compatible with Unity Universal rendering pipeline.",
+          "displayName": "Shader Examples (URP)"
+        },
+        {
+          "path": "Samples~/SamplesHDRP",
+          "description": "Polybrush shader examples compatible with Unity High Definition rendering pipeline.",
+          "displayName": "Shader Examples (HDRP)"
+        }
+      ],
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/polybrush.git",
+        "type": "git",
+        "revision": "571b9c3665597c648dbe7c7dc7688804260a8ec0"
+      },
+      "relatedPackages": {
+        "com.unity.polybrush.tests": "1.1.8"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.polybrush@1.1/manual/index.html",
+      "name": "com.unity.polybrush",
+      "version": "1.1.8",
+      "displayName": "Polybrush",
+      "description": "Mesh painting, sculpting, and geo-scattering tool for Unity.",
+      "keywords": [
+        "modeling",
+        "sculpting",
+        "push",
+        "clay",
+        "terrain"
+      ],
+      "dependencies": {
+        "com.unity.settings-manager": "2.0.1"
+      },
+      "dist": {
+        "shasum": "9b4531013fbd4797d91318680619ee8780c62b91",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.polybrush-1.1.8.tgz"
+      }
+    }
+  },
+  "time": {
+    "1.1.8": "2024-11-19T04:06:21Z"
+  },
+  "dist-tags": {
+    "latest": "1.1.8"
+  },
+  "etag": "\"a597-htj36kkCOBatxkDEFxMxyC9CaBU\""
+}

@@ -1,0 +1,56 @@
+{
+  "_id": "com.unity.searcher",
+  "name": "com.unity.searcher",
+  "description": "General search window for use in the Editor. First target use is for GraphView node search.",
+  "provider": "upm",
+  "versions": {
+    "4.9.2": {
+      "_id": "com.unity.searcher@4.9.2",
+      "upm": {
+        "changelog": "- Fixed a bug that stopped keyboard keys from affecting navigation and interaction with search results list, unless user explicitly focused/click on list using the mouse [1396759]"
+      },
+      "type": "asset",
+      "_from": "file:/tmp/com.unity.searcher@4.9.2-lfj_p7ds.tgz",
+      "unity": "2019.1",
+      "upmCi": {
+        "footprint": "c003fc96927da2c24f950b99138713a642761fd1"
+      },
+      "samples": [
+        {
+          "path": "Samples~",
+          "description": "Some Searcher's basic examples",
+          "displayName": "Searchers Samples"
+        }
+      ],
+      "_resolved": "/tmp/com.unity.searcher@4.9.2-lfj_p7ds.tgz",
+      "_integrity": "sha512-YBWXpjeJ7+9wxycQhpzO/RY6LtCw83mrCo0UFONoLcwCK6Wl5vAojmoh7981r/qC6ciprERnw7Oey5lGvMF72A==",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git",
+        "type": "git",
+        "revision": "7f9f75b04e97cf09c8ddc3968d059e74d6a2460a"
+      },
+      "_npmVersion": "7.5.2",
+      "_nodeVersion": "12.21.0",
+      "name": "com.unity.searcher",
+      "version": "4.9.2",
+      "displayName": "Searcher",
+      "description": "General search window for use in the Editor. First target use is for GraphView node search.",
+      "keywords": [
+        "search",
+        "searcher"
+      ],
+      "dependencies": {},
+      "dist": {
+        "shasum": "90d011a70418fd5b0f4b8e86df39444d2af228dd",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.searcher-4.9.2.tgz"
+      }
+    }
+  },
+  "time": {
+    "4.9.2": "2024-11-19T04:06:23Z"
+  },
+  "dist-tags": {
+    "latest": "4.9.2"
+  },
+  "etag": "\"e9b3-mBrS4OXS1fS3+wuQDtLCiVKNeuY\""
+}

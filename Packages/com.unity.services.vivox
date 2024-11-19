@@ -1,0 +1,70 @@
+{
+  "_id": "com.unity.services.vivox",
+  "name": "com.unity.services.vivox",
+  "description": "Unity's voice and text chat service for multiplayer communication offers voice chat and direct message text service with a managed hosted solution. Plug into your game and configure your project settings to add communications to your project immediately. Connect an unlimited number of users in 2D and 3D channels. Monitor concurrency on your dashboard. Add a custom UI to allow players to control voice volume, mute, and add audio effects to voice channels and manage them. Place users in team chat and allow them to participate in multiple channels.",
+  "provider": "upm",
+  "versions": {
+    "16.3.0": {
+      "_upm": {
+        "changelog": "### Added\n - `VivoxConfigurationOptions.BluetoothProfile` for configuring the type of Bluetooth profile Vivox should use. This configuration currently affects only mobile devices.\n - `VivoxConfigurationOptions.MobileRecordingConflictAvoidance` property to enable/disable mobile recording conflict avoidance.This configuration currently affects only Android mobile devices.\n - `IVivoxService.EffectiveInputDeviceChanged` event to listen for when the effective input device changes.\n - `IVivoxService.EffectiveOutputDeviceChanged` event to listen for when the effective output device changes.\n - `IVivoxService.EffectiveInputDevice` property to provide information about the current effective input device.\n - `IVivoxService.EffectiveOutputDevice` property to provide information about the current effective output device.\n ### Changed\n - Upgraded `com.unity.services.core` dependency to version `1.12.5`.\n - Upgraded underlying Vivox Core SDK to version `5.23.1`.\n### Fixed\n - Fixed a bug preventing the SDK from properly using UAS with particular Vivox backend environments.",
+        "gameService": {
+          "groupName": "Multiplayer",
+          "groupIndex": 2,
+          "configurePath": "Project/Services/Vivox",
+          "genericDashboardUrl": "https://dashboard.unity3d.com/vivox",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/vivox/credentials",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS",
+          "mac",
+          "Windows"
+        ]
+      },
+      "type": "assets",
+      "unity": "2020.3",
+      "upmCi": {
+        "footprint": "af569c1b7eb028b3c585b844fa9cf6b5a410e8fe"
+      },
+      "samples": [
+        {
+          "path": "Samples~/ChatChannelSample",
+          "description": "This sample showcases voice chat, text chat, text-to-speech, muting, and chat history features for immersive, interactive user engagement.",
+          "displayName": "Chat Channel Sample"
+        }
+      ],
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/vivox-unity-sdk.git",
+        "type": "git",
+        "revision": "1499c915a1a3a47ee4c1b94092244a3738c72803"
+      },
+      "relatedPackages": {
+        "com.unity.services.vivox.tests": "16.3.0"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.vivox@16.3/manual/index.html",
+      "vivox_core_version": "5.23.1",
+      "name": "com.unity.services.vivox",
+      "version": "16.3.0",
+      "displayName": "Vivox",
+      "description": "Unity's voice and text chat service for multiplayer communication offers voice chat and direct message text service with a managed hosted solution. Plug into your game and configure your project settings to add communications to your project immediately. Connect an unlimited number of users in 2D and 3D channels. Monitor concurrency on your dashboard. Add a custom UI to allow players to control voice volume, mute, and add audio effects to voice channels and manage them. Place users in team chat and allow them to participate in multiple channels.",
+      "dependencies": {
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.services.core": "1.12.5",
+        "com.unity.settings-manager": "1.0.3",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "dist": {
+        "shasum": "e9bd1b150e049151ad0c6d0452dff34b602a60d2",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.services.vivox-16.3.0.tgz"
+      }
+    }
+  },
+  "time": {
+    "16.3.0": "2024-11-19T04:06:26Z"
+  },
+  "dist-tags": {
+    "latest": "16.3.0"
+  },
+  "etag": "\"15131-0/QnMfxRSpNZVwmYzCdhgPsGypM\""
+}

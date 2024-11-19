@@ -1,0 +1,42 @@
+{
+  "_id": "com.unity.visualscripting",
+  "name": "com.unity.visualscripting",
+  "description": "Visual scripting is a workflow that uses visual, node-based graphs to design behaviors rather than write lines of C# script.\n\nEnabling artists, designers and programmers alike, visual scripting can be used to design final logic, quickly create prototypes, iterate on gameplay and create custom nodes to help streamline collaboration.\n\nVisual scripting is compatible with third-party APIs, including most packages, assets and custom libraries.",
+  "provider": "upm",
+  "versions": {
+    "1.8.0": {
+      "type": "tool",
+      "unity": "2021.3",
+      "upmCi": {
+        "footprint": "216653b9b8371e118cd255206201ec635c66d806"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git",
+        "type": "git",
+        "revision": "0de66378b19e990494d98f39ecc2b6aa5ac65351"
+      },
+      "relatedPackages": {
+        "com.unity.visualscripting.tests": "1.8.0"
+      },
+      "name": "com.unity.visualscripting",
+      "version": "1.8.0",
+      "displayName": "Visual Scripting",
+      "description": "Visual scripting is a workflow that uses visual, node-based graphs to design behaviors rather than write lines of C# script.\n\nEnabling artists, designers and programmers alike, visual scripting can be used to design final logic, quickly create prototypes, iterate on gameplay and create custom nodes to help streamline collaboration.\n\nVisual scripting is compatible with third-party APIs, including most packages, assets and custom libraries.",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "dist": {
+        "shasum": "86b4439fb241d245101cd5320de3d4b30263f43f",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.visualscripting-1.8.0.tgz"
+      }
+    }
+  },
+  "time": {
+    "1.8.0": "2024-11-19T04:06:28Z"
+  },
+  "dist-tags": {
+    "latest": "1.8.0"
+  },
+  "etag": "\"cd31-0gSMLibnz+t6BE9pNQOnRaJNrIE\""
+}

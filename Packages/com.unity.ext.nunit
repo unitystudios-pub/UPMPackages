@@ -1,0 +1,48 @@
+{
+  "_id": "com.unity.ext.nunit",
+  "name": "com.unity.ext.nunit",
+  "description": "A custom version of NUnit used by Unity Test Framework. Based on NUnit version 3.5 and works with all platforms, il2cpp and Mono AOT.",
+  "provider": "upm",
+  "versions": {
+    "2.0.5": {
+      "_upm": {
+        "changelog": "- Fixing bug for InstanceID as struct changes"
+      },
+      "type": "assets",
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "f9e6bd68d25d51bb4b44047fc95106b99d86b7ec"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git",
+        "type": "git",
+        "revision": "469fe0d46bfc26fbb32a53885ca4d12abcdae4ae"
+      },
+      "relatedPackages": {
+        "com.unity.ext.nunit.tests": "2.0.5"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.ext.nunit@2.0/manual/index.html",
+      "name": "com.unity.ext.nunit",
+      "version": "2.0.5",
+      "displayName": "Custom NUnit",
+      "description": "A custom version of NUnit used by Unity Test Framework. Based on NUnit version 3.5 and works with all platforms, il2cpp and Mono AOT.",
+      "keywords": [
+        "nunit",
+        "unittest",
+        "test"
+      ],
+      "dependencies": {},
+      "dist": {
+        "shasum": "60ef35ffd3cd5e2f5c8887a4a4ca6148854cd092",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.ext.nunit-2.0.5.tgz"
+      }
+    }
+  },
+  "time": {
+    "2.0.5": "2024-11-19T04:06:18Z"
+  },
+  "dist-tags": {
+    "latest": "2.0.5"
+  },
+  "etag": "\"2768-941eX7bODIuPMm9tB2+1GqSuOYM\""
+}

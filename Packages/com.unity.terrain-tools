@@ -1,0 +1,52 @@
+{
+  "_id": "com.unity.terrain-tools",
+  "name": "com.unity.terrain-tools",
+  "description": "The Terrain Tools package adds additional Terrain sculpting brushes and tools to Unity. This add-on toolset is suitable if you require more control over the appearance of your Terrain, and want to streamline Terrain workflows. It’s also useful when you want to make more complex-looking Terrain, or author Terrain Texture data in external digital content creation tools.",
+  "provider": "upm",
+  "versions": {
+    "5.1.2": {
+      "_upm": {
+        "changelog": "### Changed:\n- Updated version to 5.1.2\n\n### Fixed:\n- Removed unecessary .meta file\n- Fixed warnings about deprecated APIs.\n- Fix issue where IsPowerOfTwo returns true for negative ints\n- Test for IsPowerOfTwo is updated to check up to 2^30 and includes negative cases"
+      },
+      "type": "asset",
+      "unity": "2023.1",
+      "upmCi": {
+        "footprint": "686b1ce52e81864417fbfbe73aa1f771605ce952"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/TerrainTools.git",
+        "type": "git",
+        "revision": "e43b07b66fa36045729d62c0c6a845159b167257"
+      },
+      "unityRelease": "0a25",
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.terrain-tools@5.1/manual/index.html",
+      "name": "com.unity.terrain-tools",
+      "version": "5.1.2",
+      "displayName": "Terrain Tools",
+      "description": "The Terrain Tools package adds additional Terrain sculpting brushes and tools to Unity. This add-on toolset is suitable if you require more control over the appearance of your Terrain, and want to streamline Terrain workflows. It’s also useful when you want to make more complex-looking Terrain, or author Terrain Texture data in external digital content creation tools.",
+      "keywords": [
+        "Terrain",
+        "Brush",
+        "Toolbox",
+        "Mask",
+        "Filter",
+        "Noise"
+      ],
+      "dependencies": {
+        "com.unity.modules.terrain": "1.0.0",
+        "com.unity.modules.terrainphysics": "1.0.0"
+      },
+      "dist": {
+        "shasum": "d4bcf51a280e611c70611a4f4045f686f2948913",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.terrain-tools-5.1.2.tgz"
+      }
+    }
+  },
+  "time": {
+    "5.1.2": "2024-11-19T04:06:27Z"
+  },
+  "dist-tags": {
+    "latest": "5.1.2"
+  },
+  "etag": "\"a478-q6wGi97RWPd1f1xn68N7tcm4VV4\""
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "com.unity.xr.legacyinputhelpers",
+  "name": "com.unity.xr.legacyinputhelpers",
+  "description": "This package includes the tracked pose driver for the legacy input system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects to track input devices, the XR Bindings Seeding Tool adds a menu item under the 'Assets' menu which populates the Input Asset with Unity's crossplatform Input Bindings",
+  "provider": "upm",
+  "versions": {
+    "2.1.10": {
+      "_upm": {
+        "changelog": "Fixed a build error about a mismatch of the serialized fields between Editor and Player due to `m_PoseProviderComponent`. That field and its type is now always included, not just when `ENABLE_AR` or `ENABLE_VR` are defined."
+      },
+      "type": "asset",
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "ec826e1c407b5cf442ff158c90ff77e59d147718"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git",
+        "type": "git",
+        "revision": "465ee12451634ea2b2986d54f6ae8be37316772a"
+      },
+      "name": "com.unity.xr.legacyinputhelpers",
+      "version": "2.1.10",
+      "displayName": "XR Legacy Input Helpers",
+      "description": "This package includes the tracked pose driver for the legacy input system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects to track input devices, the XR Bindings Seeding Tool adds a menu item under the 'Assets' menu which populates the Input Asset with Unity's crossplatform Input Bindings",
+      "keywords": [
+        "TPD",
+        "Tracked Pose Driver",
+        "XR",
+        "Input",
+        "Helpers"
+      ],
+      "dependencies": {
+        "com.unity.modules.vr": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
+      },
+      "dist": {
+        "shasum": "4716850f3b0c9a398c68cd272d279e68245c49a7",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.xr.legacyinputhelpers-2.1.10.tgz"
+      }
+    }
+  },
+  "time": {
+    "2.1.10": "2024-11-19T04:06:30Z"
+  },
+  "dist-tags": {
+    "latest": "2.1.10"
+  },
+  "etag": "\"92f5-8rh+hRJ31h8tN8ja8wUs/CK33qc\""
+}

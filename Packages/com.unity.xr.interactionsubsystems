@@ -1,0 +1,43 @@
+{
+  "_id": "com.unity.xr.interactionsubsystems",
+  "name": "com.unity.xr.interactionsubsystems",
+  "description": "Contains definitions for Interaction Subsystems. This package is a dependency of provider packages.",
+  "provider": "upm",
+  "versions": {
+    "2.0.0": {
+      "type": "asset",
+      "unity": "2022.2",
+      "upmCi": {
+        "footprint": "c93402df768922887e00a71502a7ac849d74eb2f"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.xr.interactionsubsystems.git",
+        "type": "git",
+        "revision": "22ce6c814bdd3a0e13cf34a88ea166b7745a3214"
+      },
+      "name": "com.unity.xr.interactionsubsystems",
+      "version": "2.0.0",
+      "displayName": "XR Interaction Subsystems",
+      "description": "Contains definitions for Interaction Subsystems. This package is a dependency of provider packages.",
+      "keywords": [
+        "subsystem",
+        "XR",
+        "Interaction"
+      ],
+      "dependencies": {
+        "com.unity.modules.subsystems": "1.0.0"
+      },
+      "dist": {
+        "shasum": "2dbd589b694d7a872b99368ec511405ec22ec6cd",
+        "tarball": "https://unity-stevedore.s3.us-east-1.amazonaws.com/com.unity.xr.interactionsubsystems-2.0.0.tgz"
+      }
+    }
+  },
+  "time": {
+    "2.0.0": "2024-11-19T04:06:30Z"
+  },
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "etag": "\"10d1-CoDoesejB9KXCApXpPRYQrpfaMs\""
+}
