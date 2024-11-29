@@ -27,6 +27,7 @@
         "sync-request": "^6.1.0"
       },
       "searchablePackages": [
+        "com.unity.editorx",
         "com.havok.physics",
         "com.ptc.vuforia.engine",
         "com.unity.2d.animation",
